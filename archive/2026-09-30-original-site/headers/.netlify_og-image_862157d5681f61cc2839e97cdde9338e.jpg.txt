@@ -1,0 +1,14 @@
+HTTP/2 200 
+age: 0
+cache-control: public,max-age=86400,must-revalidate
+cache-status: "Netlify Edge"; fwd=miss; fwd-status=200; stored
+content-security-policy: script-src 'none'
+content-type: image/jpeg
+date: Wed, 30 Sep 2026 04:26:58 GMT
+etag: "c8e94b7f4bf61817e392745361a39c77dd2b6371733968734982bf0dc3c8d7d3"
+netlify-vary: query=crop|fit|fm|format|h|height|position|q|quality|timestamp|url|w|width,header=Netlify-Image-Accept
+server: Netlify
+strict-transport-security: max-age=31536000
+x-nf-request-id: 01M3R91MP1R5ZX0PZESVPBP2WG
+content-length: 28306
+
