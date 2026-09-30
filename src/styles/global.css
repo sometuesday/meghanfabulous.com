@@ -157,7 +157,7 @@ h1, h2, .display {
   text-decoration: none;
 }
 
-.statement { padding: clamp(3.5rem, 10vw, 7rem) 0; }
+.statement { padding: clamp(2.4rem, 6vw, 4.25rem) 0 clamp(1.25rem, 3vw, 2rem); }
 .statement h1 {
   font-size: clamp(2.7rem, 8vw, 6.4rem);
   margin: 0 0 1.2rem;
@@ -172,21 +172,20 @@ h1, h2, .display {
 .era-strip a {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
-  padding: 1.3rem var(--pad);
+  gap: 0.75rem;
+  padding: 0.85rem var(--pad);
   border-top: 1px solid var(--line);
   color: var(--ink);
   text-decoration: none;
-  min-height: 7.5rem;
-  align-items: flex-end;
+  align-items: baseline;
 }
 .era-strip a:hover { background: var(--ink); color: var(--ivory); }
 .era-strip strong {
   font-family: var(--serif);
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
   font-weight: 520;
   letter-spacing: -0.03em;
-  line-height: 1;
+  line-height: 1.05;
 }
 .era-strip span { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; }
 
@@ -229,6 +228,7 @@ h1, h2, .display {
 }
 
 .section { padding: clamp(3rem, 8vw, 6rem) 0; }
+.section-follow { padding-top: 1.35rem; }
 .section h2 {
   font-size: clamp(2.2rem, 5vw, 4rem);
   margin: 0.3rem 0 1rem;
@@ -484,7 +484,7 @@ form.contact button, .button {
 
 @media (min-width: 760px) {
   .era-strip { grid-template-columns: repeat(3, 1fr); }
-  .era-strip a { min-height: 11rem; flex-direction: column; align-items: flex-start; justify-content: space-between; }
+  .era-strip a { flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 0.35rem; padding: 0.85rem var(--pad) 1rem; }
   .covers, .cover-wall { grid-auto-flow: unset; grid-template-columns: repeat(5, 1fr); overflow: visible; }
   .cover-wall { grid-template-columns: repeat(3, 1fr); }
   .craft { grid-template-columns: 1.2fr 0.8fr; align-items: end; }

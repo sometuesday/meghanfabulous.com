@@ -26,7 +26,3 @@ facts:
 ---
 
 This is the era the whole story was walking toward, and it starts earlier than the dates on the door.
-
-In her mid-twenties she lost her name and made a dress out of a thrifted Grateful Dead T-shirt. Paris Hilton wore that dress to the VH1 Big in '04 Awards (December 2004, Shrine Auditorium, Los Angeles). The photograph is not published here.
-
-The licensed clothes came in 2023: Stealies, bears, Bertha, silk and stones. She closed the business in 2025. The story of the dress, in her own words, is in the journal.
