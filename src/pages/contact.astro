@@ -1,0 +1,36 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../config/site";
+---
+
+<Base
+  title="Contact — Meghan Fabulous"
+  description="Write to Meghan Fabulous about press, the archive, or a collaboration. There is no shop."
+>
+  <header class="page-head wrap">
+    <p class="label">Press, archive, collaborations</p>
+    <h1>Contact</h1>
+    <p class="prose">
+      <a href={`mailto:${site.email}`}>{site.email}</a>
+    </p>
+  </header>
+  <form class="contact wrap" name="contact" method="POST" data-netlify="true" netlify-honeypot="company">
+    <input type="hidden" name="form-name" value="contact" />
+    <p class="hp">
+      <label>Company <input name="company" tabindex="-1" autocomplete="off" /></label>
+    </p>
+    <label>
+      Name
+      <input name="name" required autocomplete="name" />
+    </label>
+    <label>
+      Email
+      <input name="email" type="email" required autocomplete="email" />
+    </label>
+    <label>
+      Message
+      <textarea name="message" rows="6" required></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
+</Base>

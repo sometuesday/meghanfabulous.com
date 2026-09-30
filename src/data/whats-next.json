@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "id": "archive",
+      "status": "Open",
+      "title": "Stories from the archive",
+      "text": "Lookbooks, clippings, and journal notes still to be added, one file at a time."
+    },
+    {
+      "id": "made-at-sea",
+      "status": "Now",
+      "title": "Made at sea",
+      "text": "What she is sewing aboard Some Tuesday. Follow the making, not a launch."
+    },
+    {
+      "id": "collaborations",
+      "status": "Open",
+      "title": "Collaborations",
+      "text": "A book, an exhibition, a one-off. Nothing is scheduled. Write if you have a real idea."
+    }
+  ]
+}

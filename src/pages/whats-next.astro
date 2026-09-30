@@ -1,0 +1,33 @@
+---
+import Base from "../layouts/Base.astro";
+import cards from "../data/whats-next.json";
+---
+
+<Base
+  title="What’s Next — Meghan Fabulous"
+  description="No invented projects. A place for archive stories, making at sea, and collaborations, beside the voyage on Some Tuesday."
+>
+  <header class="page-head wrap">
+    <p class="label">Open</p>
+    <h1>What’s next</h1>
+  </header>
+  <img
+    class="lead"
+    src="/images/picks/40_sailing_steve-and-meg.webp"
+    alt="Steve and Meghan together aboard."
+    width="1290"
+    height="1612"
+  />
+  <div class="wrap cards section">
+    {
+      cards.cards.map((card) => (
+        <article class="card">
+          <p class="label">{card.status}</p>
+          <h2>{card.title}</h2>
+          <p>{card.text}</p>
+        </article>
+      ))
+    }
+  </div>
+  <p class="wrap">Collaborations start with a note. <a href="/contact">Write to Meghan</a>.</p>
+</Base>

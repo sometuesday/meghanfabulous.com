@@ -1,0 +1,749 @@
+[
+  {
+    "slug": "boho-bourbon",
+    "name": "Boho Bourbon",
+    "archetype": "Boho Bourbon",
+    "era": "the-world",
+    "cover": "/images/lookbooks/boho-bourbon/1-10.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/boho-bourbon/1-10.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Boho Bourbon lookbook."
+      },
+      {
+        "src": "/images/lookbooks/boho-bourbon/10-2.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Boho Bourbon lookbook."
+      },
+      {
+        "src": "/images/lookbooks/boho-bourbon/2-13.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Boho Bourbon lookbook."
+      },
+      {
+        "src": "/images/lookbooks/boho-bourbon/3-11.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Boho Bourbon lookbook."
+      },
+      {
+        "src": "/images/lookbooks/boho-bourbon/4-12.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "Still life: butterfly specimens (her mother / butterfly motif)"
+      },
+      {
+        "src": "/images/lookbooks/boho-bourbon/5-11.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Boho Bourbon lookbook."
+      },
+      {
+        "src": "/images/lookbooks/boho-bourbon/6-7.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Boho Bourbon lookbook."
+      },
+      {
+        "src": "/images/lookbooks/boho-bourbon/7-7.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Boho Bourbon lookbook."
+      },
+      {
+        "src": "/images/lookbooks/boho-bourbon/8-6.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Boho Bourbon lookbook."
+      },
+      {
+        "src": "/images/lookbooks/boho-bourbon/9-4.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Boho Bourbon lookbook."
+      }
+    ]
+  },
+  {
+    "slug": "california-girl",
+    "name": "California Girl",
+    "archetype": "California Girl",
+    "era": "the-world",
+    "cover": "/images/lookbooks/california-girl/1-11.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/california-girl/1-11.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the California Girl lookbook."
+      },
+      {
+        "src": "/images/lookbooks/california-girl/2-14.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the California Girl lookbook."
+      },
+      {
+        "src": "/images/lookbooks/california-girl/3-12.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the California Girl lookbook."
+      },
+      {
+        "src": "/images/lookbooks/california-girl/4-13.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the California Girl lookbook."
+      },
+      {
+        "src": "/images/lookbooks/california-girl/5-12.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the California Girl lookbook."
+      },
+      {
+        "src": "/images/lookbooks/california-girl/6-8.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the California Girl lookbook."
+      },
+      {
+        "src": "/images/lookbooks/california-girl/7-8.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "Printed maxi dress in garden/greenery"
+      },
+      {
+        "src": "/images/lookbooks/california-girl/8-7.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "Model reclining on red graphic print, full-bleed colour"
+      },
+      {
+        "src": "/images/lookbooks/california-girl/9-5.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "Close crop of hands covered in rings over print"
+      }
+    ]
+  },
+  {
+    "slug": "disco-doll",
+    "name": "Disco Doll",
+    "archetype": "Disco Doll",
+    "era": "the-runway-years",
+    "cover": "/images/lookbooks/disco-doll/1-12.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/disco-doll/1-12.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Disco Doll lookbook."
+      },
+      {
+        "src": "/images/lookbooks/disco-doll/2-15.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "Model in sweeping pink/red wave-print gown with long sleeves, soft studio light"
+      },
+      {
+        "src": "/images/lookbooks/disco-doll/3-13.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Disco Doll lookbook."
+      },
+      {
+        "src": "/images/lookbooks/disco-doll/4-14.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "Printed kimono and pants, disco backdrop"
+      },
+      {
+        "src": "/images/lookbooks/disco-doll/5-13.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Disco Doll lookbook."
+      },
+      {
+        "src": "/images/lookbooks/disco-doll/6-9.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Disco Doll lookbook."
+      },
+      {
+        "src": "/images/lookbooks/disco-doll/7-9.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Disco Doll lookbook."
+      },
+      {
+        "src": "/images/lookbooks/disco-doll/8-8.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Disco Doll lookbook."
+      }
+    ]
+  },
+  {
+    "slug": "jade-princess",
+    "name": "Jade Princess",
+    "archetype": "Jade Princess",
+    "era": "the-world",
+    "cover": "/images/lookbooks/jade-princess/1-14.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/jade-princess/1-14.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Jade Princess lookbook."
+      },
+      {
+        "src": "/images/lookbooks/jade-princess/2-17.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Jade Princess lookbook."
+      },
+      {
+        "src": "/images/lookbooks/jade-princess/3-15.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Jade Princess lookbook."
+      },
+      {
+        "src": "/images/lookbooks/jade-princess/4-16.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Jade Princess lookbook."
+      },
+      {
+        "src": "/images/lookbooks/jade-princess/5-15.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Jade Princess lookbook."
+      },
+      {
+        "src": "/images/lookbooks/jade-princess/6-11.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Jade Princess lookbook."
+      },
+      {
+        "src": "/images/lookbooks/jade-princess/7-10.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "Moody dark editorial portrait, embellished jacket"
+      }
+    ]
+  },
+  {
+    "slug": "la-cita",
+    "name": "La Cita",
+    "archetype": "La Cita",
+    "era": "the-world",
+    "cover": "/images/lookbooks/la-cita/1-15.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/la-cita/1-15.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "Model in print maxi in red vinyl booth"
+      },
+      {
+        "src": "/images/lookbooks/la-cita/2-18.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the La Cita lookbook."
+      },
+      {
+        "src": "/images/lookbooks/la-cita/3-16.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the La Cita lookbook."
+      },
+      {
+        "src": "/images/lookbooks/la-cita/4-17.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the La Cita lookbook."
+      },
+      {
+        "src": "/images/lookbooks/la-cita/5-16.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the La Cita lookbook."
+      },
+      {
+        "src": "/images/lookbooks/la-cita/6-12.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the La Cita lookbook."
+      },
+      {
+        "src": "/images/lookbooks/la-cita/7-11.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the La Cita lookbook."
+      },
+      {
+        "src": "/images/lookbooks/la-cita/8-9.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "Printed gown, bar interior"
+      }
+    ]
+  },
+  {
+    "slug": "lady-jamaica",
+    "name": "Lady Jamaica",
+    "archetype": "Lady Jamaica",
+    "era": "the-world",
+    "cover": "/images/lookbooks/lady-jamaica/1-16.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/lady-jamaica/1-16.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "Portrait in printed headwrap and top"
+      },
+      {
+        "src": "/images/lookbooks/lady-jamaica/2-19.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Lady Jamaica lookbook."
+      },
+      {
+        "src": "/images/lookbooks/lady-jamaica/3-17_1024x1024.webp",
+        "w": 767,
+        "h": 1024,
+        "alt": "A look from the Lady Jamaica lookbook."
+      },
+      {
+        "src": "/images/lookbooks/lady-jamaica/4-18.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Lady Jamaica lookbook."
+      },
+      {
+        "src": "/images/lookbooks/lady-jamaica/5-17.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Lady Jamaica lookbook."
+      },
+      {
+        "src": "/images/lookbooks/lady-jamaica/6-13.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Lady Jamaica lookbook."
+      },
+      {
+        "src": "/images/lookbooks/lady-jamaica/7-12.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "Long printed kimono, tropical setting"
+      },
+      {
+        "src": "/images/lookbooks/lady-jamaica/8-10.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Lady Jamaica lookbook."
+      }
+    ]
+  },
+  {
+    "slug": "novel-riviere",
+    "name": "Novel Riviere",
+    "archetype": "Novel Riviere",
+    "era": "the-world",
+    "cover": "/images/lookbooks/novel-riviere/1-18.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/novel-riviere/1-18.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Novel Riviere lookbook."
+      },
+      {
+        "src": "/images/lookbooks/novel-riviere/2-21.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Novel Riviere lookbook."
+      },
+      {
+        "src": "/images/lookbooks/novel-riviere/3-19.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Novel Riviere lookbook."
+      },
+      {
+        "src": "/images/lookbooks/novel-riviere/4-20.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Novel Riviere lookbook."
+      },
+      {
+        "src": "/images/lookbooks/novel-riviere/5-19.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Novel Riviere lookbook."
+      },
+      {
+        "src": "/images/lookbooks/novel-riviere/6-15.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Novel Riviere lookbook."
+      },
+      {
+        "src": "/images/lookbooks/novel-riviere/7-14.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "Statement necklace draped over a stack of fashion books"
+      }
+    ]
+  },
+  {
+    "slug": "prism-butterfly",
+    "name": "Prism Butterfly",
+    "archetype": "Prism Butterfly",
+    "era": "the-world",
+    "cover": "/images/lookbooks/prism-butterfly/1-19.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/prism-butterfly/1-19.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "Printed look on saturated yellow backdrop"
+      },
+      {
+        "src": "/images/lookbooks/prism-butterfly/2-22.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "Printed maxi on turquoise backdrop"
+      },
+      {
+        "src": "/images/lookbooks/prism-butterfly/3-20.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Prism Butterfly lookbook."
+      },
+      {
+        "src": "/images/lookbooks/prism-butterfly/4-21.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Prism Butterfly lookbook."
+      },
+      {
+        "src": "/images/lookbooks/prism-butterfly/5-20.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Prism Butterfly lookbook."
+      },
+      {
+        "src": "/images/lookbooks/prism-butterfly/6-16.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "Flowing printed gown mid-movement on blue"
+      }
+    ]
+  },
+  {
+    "slug": "rebel-rebel",
+    "name": "Rebel Rebel",
+    "archetype": "Rebel Rebel",
+    "era": "the-runway-years",
+    "cover": "/images/lookbooks/rebel-rebel/1-20.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/rebel-rebel/1-20.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rebel Rebel lookbook."
+      },
+      {
+        "src": "/images/lookbooks/rebel-rebel/2-23.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rebel Rebel lookbook."
+      },
+      {
+        "src": "/images/lookbooks/rebel-rebel/3-21.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rebel Rebel lookbook."
+      },
+      {
+        "src": "/images/lookbooks/rebel-rebel/4-22.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "Studded rock-and-roll jacket against red vintage truck"
+      },
+      {
+        "src": "/images/lookbooks/rebel-rebel/5-21.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rebel Rebel lookbook."
+      },
+      {
+        "src": "/images/lookbooks/rebel-rebel/6-17.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rebel Rebel lookbook."
+      },
+      {
+        "src": "/images/lookbooks/rebel-rebel/7-15.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rebel Rebel lookbook."
+      }
+    ]
+  },
+  {
+    "slug": "rosie",
+    "name": "Rosie",
+    "archetype": "Rosie",
+    "era": "the-runway-years",
+    "cover": "/images/lookbooks/rosie/1-21.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/rosie/1-21.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rosie lookbook."
+      },
+      {
+        "src": "/images/lookbooks/rosie/2-24.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rosie lookbook."
+      },
+      {
+        "src": "/images/lookbooks/rosie/3-22.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rosie lookbook."
+      },
+      {
+        "src": "/images/lookbooks/rosie/4-23.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rosie lookbook."
+      },
+      {
+        "src": "/images/lookbooks/rosie/5-22.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Rosie lookbook."
+      }
+    ]
+  },
+  {
+    "slug": "starlight",
+    "name": "Starlight",
+    "archetype": "Starlight",
+    "era": "the-runway-years",
+    "cover": "/images/lookbooks/starlight/1-22.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/starlight/1-22.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Starlight lookbook."
+      },
+      {
+        "src": "/images/lookbooks/starlight/10-3.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Starlight lookbook."
+      },
+      {
+        "src": "/images/lookbooks/starlight/2-25.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Starlight lookbook."
+      },
+      {
+        "src": "/images/lookbooks/starlight/3-23.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Starlight lookbook."
+      },
+      {
+        "src": "/images/lookbooks/starlight/4-24.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Starlight lookbook."
+      },
+      {
+        "src": "/images/lookbooks/starlight/5-23.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Starlight lookbook."
+      },
+      {
+        "src": "/images/lookbooks/starlight/6-18.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the Starlight lookbook."
+      },
+      {
+        "src": "/images/lookbooks/starlight/7-16.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Starlight lookbook."
+      },
+      {
+        "src": "/images/lookbooks/starlight/8-11.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Starlight lookbook."
+      },
+      {
+        "src": "/images/lookbooks/starlight/9-6.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "Printed gown at night, city light"
+      }
+    ]
+  },
+  {
+    "slug": "after-party",
+    "name": "After Party",
+    "archetype": "After Party",
+    "era": "the-runway-years",
+    "cover": "/images/lookbooks/after-party/1-6.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/after-party/1-6.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the After Party lookbook."
+      },
+      {
+        "src": "/images/lookbooks/after-party/2-9.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the After Party lookbook."
+      },
+      {
+        "src": "/images/lookbooks/after-party/3-7.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the After Party lookbook."
+      },
+      {
+        "src": "/images/lookbooks/after-party/4-8.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the After Party lookbook."
+      },
+      {
+        "src": "/images/lookbooks/after-party/5-7.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the After Party lookbook."
+      }
+    ]
+  },
+  {
+    "slug": "bf-4-ever",
+    "name": "BF 4 Ever",
+    "archetype": "BF 4 Ever",
+    "era": "the-world",
+    "cover": "/images/lookbooks/bf-4-ever/1-9.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/bf-4-ever/1-9.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the BF 4 Ever lookbook."
+      },
+      {
+        "src": "/images/lookbooks/bf-4-ever/2-12.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the BF 4 Ever lookbook."
+      },
+      {
+        "src": "/images/lookbooks/bf-4-ever/3-10.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "Two models in printed maxis (green / red)"
+      },
+      {
+        "src": "/images/lookbooks/bf-4-ever/4-11.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the BF 4 Ever lookbook."
+      },
+      {
+        "src": "/images/lookbooks/bf-4-ever/5-10.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the BF 4 Ever lookbook."
+      },
+      {
+        "src": "/images/lookbooks/bf-4-ever/6-6.webp",
+        "w": 899,
+        "h": 1200,
+        "alt": "A look from the BF 4 Ever lookbook."
+      }
+    ]
+  },
+  {
+    "slug": "bella-bijou",
+    "name": "Bella Bijou",
+    "archetype": "Bella Bijou",
+    "era": "the-runway-years",
+    "cover": "/images/lookbooks/bella-bijou/2-11.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/bella-bijou/2-11.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "Turquoise statement earrings styled on a painted portrait"
+      },
+      {
+        "src": "/images/lookbooks/bella-bijou/3-9.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Bella Bijou lookbook."
+      },
+      {
+        "src": "/images/lookbooks/bella-bijou/6-5.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Bella Bijou lookbook."
+      },
+      {
+        "src": "/images/lookbooks/bella-bijou/8-5.webp",
+        "w": 1348,
+        "h": 1800,
+        "alt": "A look from the Bella Bijou lookbook."
+      }
+    ]
+  },
+  {
+    "slug": "lola",
+    "name": "Lola",
+    "archetype": "Lola",
+    "era": "the-runway-years",
+    "cover": "/images/lookbooks/lola/girl-eating-fastfood_480x480.webp",
+    "frames": [
+      {
+        "src": "/images/lookbooks/lola/girl-eating-fastfood_480x480.webp",
+        "w": 194,
+        "h": 259,
+        "alt": "A look from the Lola lookbook."
+      },
+      {
+        "src": "/images/lookbooks/lola/girl-holding-a-cup-of-coffee_480x480.webp",
+        "w": 194,
+        "h": 259,
+        "alt": "A look from the Lola lookbook."
+      }
+    ]
+  }
+]

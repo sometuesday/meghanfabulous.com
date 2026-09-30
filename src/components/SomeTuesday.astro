@@ -1,0 +1,15 @@
+---
+import { site } from "../config/site";
+const s = site.someTuesday;
+---
+
+<aside class="some-tuesday" aria-label="Some Tuesday">
+  <p>Meghan is sailing around the world aboard <em>Some Tuesday</em>.</p>
+  <nav>
+    <a href={s.site}>sometuesday.com</a>
+    <a href={s.youtube}>YouTube</a>
+    <a href={s.substack}>The Captain’s Log</a>
+    <a href={s.patreon}>Patreon</a>
+  </nav>
+  <p class="predict"><a href={s.predictwind}>Position, via PredictWind</a></p>
+</aside>

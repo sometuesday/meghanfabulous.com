@@ -1,0 +1,44 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("journal")).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const pinnedIds = ["the-paris-hilton-grateful-dead-dress", "grateful-dead-fabulous"];
+const pinned = pinnedIds.map((id) => posts.find((post) => post.id === id)!).filter(Boolean);
+const rest = posts.filter((post) => !pinnedIds.includes(post.id));
+
+const format = (date: Date) =>
+  date.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+---
+
+<Base
+  title="Journal — Meghan Fabulous"
+  description="Stories rescued from the Daily Fab: the design process, the Grateful Dead dress, the years at sea."
+>
+  <header class="page-head wrap">
+    <p class="label">The Daily Fab</p>
+    <h1>Journal</h1>
+  </header>
+  <div class="wrap journal-feature">
+    {
+      pinned.map((post) => (
+        <a class="post-card" href={`/journal/${post.id}`}>
+          <p class="label">Featured · {format(post.data.date)}</p>
+          <h2>{post.data.title}</h2>
+          <p>{post.data.description}</p>
+        </a>
+      ))
+    }
+  </div>
+  <div class="wrap post-list">
+    {
+      rest.map((post) => (
+        <a href={`/journal/${post.id}`}>
+          <p class="label">{format(post.data.date)}</p>
+          <h2>{post.data.title}</h2>
+          <p>{post.data.description}</p>
+        </a>
+      ))
+    }
+  </div>
+</Base>

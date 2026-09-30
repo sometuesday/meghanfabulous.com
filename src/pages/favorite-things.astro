@@ -1,0 +1,35 @@
+---
+import Base from "../layouts/Base.astro";
+import favorites from "../data/favorites.json";
+---
+
+<Base
+  title="Meg’s Favorite Things — Meghan Fabulous"
+  description="A shelf for Meghan’s own picks: boat life, studio kit, beauty at sea. Empty until she fills it. No prices."
+>
+  <header class="page-head wrap">
+    <p class="label">Editor’s page</p>
+    <h1>Meg’s Favorite Things</h1>
+    <p class="prose">{favorites.intro}</p>
+  </header>
+  <div class="wrap cards">
+    {
+      favorites.themes.map((theme) => (
+        <section>
+          <h2>{theme.title}</h2>
+          {theme.items.length === 0 ? (
+            <p class="placeholder">Nothing listed yet. Add a card to the theme in the content file when there is a real one.</p>
+          ) : (
+            theme.items.map((item) => (
+              <article>
+                <h3>{item.name}</h3>
+                <p>{item.text}</p>
+                {item.url && <a href={item.url}>Link</a>}
+              </article>
+            ))
+          )}
+        </section>
+      ))
+    }
+  </div>
+</Base>

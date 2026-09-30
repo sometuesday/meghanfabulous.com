@@ -1,0 +1,148 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import { site } from "../config/site";
+import pressData from "../data/press.json";
+import making from "../data/making-now.json";
+
+const eras = (await getCollection("eras")).sort((a, b) => a.data.order - b.data.order);
+const coverIds = ["rolling-stone-2005", "bazaar-shakira-2008", "elle-2005", "glitter-2008", "drapers-2008"];
+const covers = coverIds.map((id) => pressData.items.find((item) => item.id === id)!);
+const description = site.tagline;
+---
+
+<Base title="Meghan Fabulous — 25 years of wearable art" description={description}>
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-stack">
+      <img
+        src="/images/hero/lady-jamaica-kimono.webp"
+        alt="A model in a long printed kimono, tropical leaves behind her."
+        width="1498"
+        height="2000"
+      />
+      <img
+        src="/images/hero/california-girl-garden.webp"
+        alt="A model in a printed maxi dress, standing in a garden."
+        width="1498"
+        height="2000"
+      />
+      <img
+        src="/images/hero/starlight-gown.webp"
+        alt="A model in a green and pink printed gown, one hand raised."
+        width="1348"
+        height="1800"
+      />
+    </div>
+    <div class="hero-caption">
+      <p class="label">Meghan Fabulous — designer, 2001–now</p>
+      <a href="/eras">Enter the archive →</a>
+    </div>
+  </section>
+
+  <section class="statement wrap">
+    <h1>Twenty-five years of prints, beads and nerve.</h1>
+    <p>
+      I put it in my Meghan blender, and then I pour my cocktail. Wearable art, from a back room in Belmont Shore to
+      Harrods, Tokyo and the Grateful Dead. Now I make for joy, at sea.
+    </p>
+  </section>
+
+  <nav class="era-strip" aria-label="Eras">
+    {
+      eras.map((era) => (
+        <a href={`/eras/${era.id}`}>
+          <span>{era.data.years}</span>
+          <strong>{era.data.title} →</strong>
+        </a>
+      ))
+    }
+  </nav>
+
+  <section class="section section-follow wrap">
+    <p class="label">As seen in</p>
+    <h2>Clippings</h2>
+    <div class="covers">
+      {
+        covers.map((item) =>
+          item.scans.length ? (
+            <a href={`/press#${item.id}`}>
+              <img src={item.scans[0].src} alt={item.scans[0].alt} width={item.scans[0].w} height={item.scans[0].h} />
+              <p class="tile-caption">
+                {item.outlet} — {item.headline}
+              </p>
+            </a>
+          ) : (
+            <a href={`/press#${item.id}`}>
+              <div class="cover-type">
+                <span class="label">{item.outlet}</span>
+                <strong>{item.headline}</strong>
+              </div>
+              <p class="tile-caption">{item.dateLabel}</p>
+            </a>
+          ),
+        )
+      }
+    </div>
+  </section>
+
+  <div class="print-band" aria-hidden="true"></div>
+
+  <section class="section wrap craft">
+    <img
+      src="/images/picks/20_studio_meghan-with-racks.webp"
+      alt="Meghan Fabulous in her studio, with racks of embellished jackets."
+      width="1800"
+      height="1350"
+    />
+    <div>
+      <p class="label">The craft</p>
+      <p class="quote">It’s my name on the door.</p>
+      <p>
+        Hand sketches. Maxi dresses cut from more than seven yards. Beading, prints, and a fit model she kept for years.
+        <a href="/journal/the-meghan-design-process">The design process →</a>
+      </p>
+      <img
+        src="/images/picks/04_detail_california-girl_hands-rings.webp"
+        alt="Hands covered in rings, resting on a printed textile."
+        width="1348"
+        height="1800"
+      />
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <p class="label">Now · made at sea</p>
+    <h2>Making now</h2>
+    <div class="grid-4">
+      {
+        making.items.map((item) => (
+          <article>
+            <a href={item.instagram}>
+              <img src={item.image} alt={item.alt} width={item.width} height={item.height} />
+            </a>
+            <h3>{item.title}</h3>
+            <p class="joy">Not for sale — made for joy.</p>
+          </article>
+        ))
+      }
+    </div>
+    <p><a href="/making-now">The pieces</a> · <a href={site.instagram}>Follow {site.instagramHandle}</a></p>
+  </section>
+
+  <section class="section">
+    <div class="wrap craft">
+      <img
+        src="/images/picks/39_sailing_meghan-on-some-tuesday-bow.webp"
+        alt="Meghan Fabulous on the bow of the sailing yacht Some Tuesday."
+        width="1350"
+        height="1800"
+      />
+      <div>
+        <p class="label">What’s next</p>
+        <h2>Aboard <em>Some Tuesday</em>.</h2>
+        <p>The business is closed. The voyage left Los Angeles on 3 December 2025.</p>
+        <p><a href="/whats-next">Future projects →</a></p>
+      </div>
+    </div>
+  </section>
+</Base>
