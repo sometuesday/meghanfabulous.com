@@ -1,0 +1,28 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const eras = (await getCollection("eras")).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base
+  title="Eras — Meghan Fabulous"
+  description="Six chapters of a 25-year career: the first label, the runway years, the world, reinvention, Grateful Dead Fabulous, and life at sea."
+>
+  <header class="page-head wrap">
+    <p class="label">Archive</p>
+    <h1>Eras</h1>
+    <p class="prose">A career, told in order. The lookbooks have no years on them. They are filed by mood.</p>
+  </header>
+  <nav class="era-strip" aria-label="Eras">
+    {
+      eras.map((era) => (
+        <a href={`/eras/${era.id}`}>
+          <span>{era.data.years}</span>
+          <strong>{era.data.title}</strong>
+        </a>
+      ))
+    }
+  </nav>
+  <p class="wrap section"><a href="/lookbooks">Browse the lookbooks by archetype →</a></p>
+</Base>

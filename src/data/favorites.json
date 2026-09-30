@@ -1,0 +1,20 @@
+{
+  "intro": "A list Meghan can fill when she wants to. Nothing is invented here, and nothing is for sale.",
+  "themes": [
+    {
+      "id": "boat-life",
+      "title": "Boat life",
+      "items": []
+    },
+    {
+      "id": "studio-kit",
+      "title": "Studio kit",
+      "items": []
+    },
+    {
+      "id": "beauty-at-sea",
+      "title": "Beauty at sea",
+      "items": []
+    }
+  ]
+}

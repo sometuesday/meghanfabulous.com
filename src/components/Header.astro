@@ -1,0 +1,27 @@
+---
+const path = Astro.url.pathname;
+const items = [
+  ["/eras", "Eras"],
+  ["/lookbooks", "Lookbooks"],
+  ["/press", "Press"],
+  ["/making-now", "Making Now"],
+  ["/journal", "Journal"],
+  ["/about", "About"],
+];
+---
+
+<header class="site-header">
+  <a class="wordmark" href="/" aria-label="Meghan Fabulous, home">
+    <img src="/images/logo/meghan-fabulous-logo.webp" alt="" width="220" height="115" />
+  </a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav class="nav" id="site-nav" aria-label="Primary">
+    {
+      items.map(([href, label]) => (
+        <a href={href} aria-current={path === href || path.startsWith(href + "/") ? "page" : undefined}>
+          {label}
+        </a>
+      ))
+    }
+  </nav>
+</header>

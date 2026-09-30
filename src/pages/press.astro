@@ -1,0 +1,246 @@
+---
+import Base from "../layouts/Base.astro";
+import pressData from "../data/press.json";
+import wornBy from "../data/worn-by.json";
+import runway from "../data/runway.json";
+import { site } from "../config/site";
+
+const items = [...pressData.items].sort((a, b) => {
+  const ay = a.year ?? 9999;
+  const by = b.year ?? 9999;
+  if (ay !== by) return ay - by;
+  return (a.date || "").localeCompare(b.date || "");
+});
+const years = [...new Set(items.map((item) => item.year ?? "Undated"))];
+const featured = pressData.items.filter((item) => item.featured);
+const filters = [
+  ["all", "All"],
+  ["magazines", "Magazines"],
+  ["runway", "Runway"],
+  ["tv", "TV"],
+  ["worn-by", "Worn by"],
+  ["japan", "Japan"],
+  ["uk", "UK"],
+  ["business", "Business"],
+];
+---
+
+<Base
+  title="Press — Meghan Fabulous"
+  description="Twenty-five years of clippings, covers and runways. Independent coverage first. Every item stands without a scan."
+>
+  <header class="page-head wrap">
+    <p class="label">Press · Runway · Worn by</p>
+    <h1>Twenty-five years of clippings, covers and red carpets.</h1>
+  </header>
+
+  <div class="wrap cover-wall">
+    {
+      featured.map((item) =>
+        item.scans[0] ? (
+          <a href={`#${item.id}`}>
+            <img src={item.scans[0].src} alt={item.scans[0].alt} width={item.scans[0].w} height={item.scans[0].h} />
+            <p class="tile-caption">
+              {item.outlet} — {item.dateLabel}
+            </p>
+          </a>
+        ) : (
+          <a href={`#${item.id}`}>
+            <div class="cover-type">
+              <span class="label">{item.dateLabel}</span>
+              <strong>{item.outlet}</strong>
+              <span>{item.headline}</span>
+            </div>
+          </a>
+        ),
+      )
+    }
+  </div>
+
+  <div class="wrap">
+    <div class="filters" data-press-filters>
+      {
+        filters.map(([id, label], index) => (
+          <button type="button" data-filter={id} aria-pressed={index === 0 ? "true" : "false"}>
+            {label}
+          </button>
+        ))
+      }
+    </div>
+
+    {
+      years.map((year) => (
+        <section data-year-group>
+          <h2 class="press-year">{year === "Undated" ? "Undated" : year}</h2>
+          {items
+            .filter((item) => (item.year ?? "Undated") === year)
+            .map((item) => (
+              <article
+                class="press-row"
+                id={item.id}
+                data-filters={item.filters.join(" ")}
+              >
+                <span class="label">{item.dateLabel || "Undated"}</span>
+                <div>
+                  <div class="outlet">{item.outlet}</div>
+                  <div class="headline">{item.headline}</div>
+                  {item.note && <p>{item.note}</p>}
+                  {item.quote && <p class="quote">“{item.quote}”</p>}
+                </div>
+                <div class="press-actions">
+                  {item.url && (
+                    <a href={item.url}>Read</a>
+                  )}
+                  {item.scans.length > 0 && (
+                    <button type="button" data-open={item.id} aria-label={`View the ${item.outlet} scan`}>
+                      View
+                    </button>
+                  )}
+                </div>
+                <template id={`scans-${item.id}`}>
+                  {JSON.stringify({
+                    outlet: item.outlet,
+                    date: item.dateLabel,
+                    note: item.note,
+                    url: item.url,
+                    scans: item.scans,
+                  })}
+                </template>
+              </article>
+            ))}
+        </section>
+      ))
+    }
+  </div>
+
+  <section class="section wrap">
+    <p class="label">Worn by</p>
+    <h2>Names, with a source.</h2>
+    <div class="worn">
+      {
+        wornBy.map((person) => (
+          <article>
+            <h3>{person.name}</h3>
+            <p>
+              {person.garment}. {person.where}.
+            </p>
+            {person.url && <a href={person.url}>{person.linkLabel || "Source"}</a>}
+          </article>
+        ))
+      }
+    </div>
+    <p>
+      Also named, as the brand’s claim inside independent pieces: Pink and Angelina Jolie as buyers,
+      <a href="https://www.latimes.com/archives/la-xpm-2005-jan-04-et-backlash4-story.html"> Los Angeles Times, 4 January 2005</a>.
+      Angelina Jolie, Nicole Kidman and Dita Von Teese,
+      <a href="https://www.drapersonline.com/news/brand-watch-meghan-fabulous"> Drapers, 2008</a>.
+    </p>
+  </section>
+
+  <section class="section wrap">
+    <p class="label">Runway</p>
+    <h2>The shows.</h2>
+    <div class="runway-list">
+      {
+        runway.map((show) => (
+          <article>
+            {show.image && <img src={show.image} alt={show.imageAlt} width="480" height="640" />}
+            <h3>{show.title}</h3>
+            <p class="label">
+              {show.when} · {show.where}
+            </p>
+            <p>{show.text}</p>
+            {show.url ? <a href={show.url}>{show.source}</a> : <p class="source">{show.source}</p>}
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <p class="wrap section">
+    Have a clipping we’re missing?
+    <a href={`mailto:${site.email}`}> Tell Meghan</a>.
+  </p>
+
+  <dialog class="lightbox" id="lightbox">
+    <div class="lb-body">
+      <img id="lb-image" alt="" />
+      <p class="label" id="lb-meta"></p>
+      <p id="lb-note"></p>
+      <p><a id="lb-link" href="">Read the article</a></p>
+      <div class="scans" id="lb-thumbs"></div>
+      <button type="button" id="lb-close" class="button">Close</button>
+    </div>
+  </dialog>
+
+  <script>
+    const buttons = document.querySelectorAll("[data-press-filters] button");
+    const rows = document.querySelectorAll<HTMLElement>(".press-row");
+    const groups = document.querySelectorAll<HTMLElement>("[data-year-group]");
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const filter = button.getAttribute("data-filter");
+        buttons.forEach((item) => item.setAttribute("aria-pressed", item === button ? "true" : "false"));
+        rows.forEach((row) => {
+          const tags = row.getAttribute("data-filters") || "";
+          row.hidden = filter !== "all" && !tags.split(" ").includes(filter || "");
+        });
+        groups.forEach((group) => {
+          const visible = group.querySelector(".press-row:not([hidden])");
+          group.hidden = !visible;
+        });
+      });
+    });
+
+    const dialog = document.querySelector<HTMLDialogElement>("#lightbox");
+    const image = document.querySelector<HTMLImageElement>("#lb-image");
+    const meta = document.querySelector("#lb-meta");
+    const note = document.querySelector("#lb-note");
+    const link = document.querySelector<HTMLAnchorElement>("#lb-link");
+    const thumbs = document.querySelector("#lb-thumbs");
+
+    function show(data: { outlet: string; date: string; note: string; url: string; scans: { src: string; alt: string }[] }, index = 0) {
+      if (!image || !dialog) return;
+      const scan = data.scans[index];
+      image.src = scan.src;
+      image.alt = scan.alt;
+      if (meta) meta.textContent = [data.outlet, data.date].filter(Boolean).join(" — ");
+      if (note) note.textContent = data.note || "";
+      if (link) {
+        if (data.url) {
+          link.href = data.url;
+          link.hidden = false;
+        } else {
+          link.hidden = true;
+        }
+      }
+      if (thumbs) {
+        thumbs.innerHTML = "";
+        data.scans.forEach((scanItem, i) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          const thumb = document.createElement("img");
+          thumb.src = scanItem.src;
+          thumb.alt = "";
+          button.append(thumb);
+          button.addEventListener("click", () => show(data, i));
+          thumbs.append(button);
+        });
+      }
+      if (!dialog.open) dialog.showModal();
+    }
+
+    document.querySelectorAll<HTMLButtonElement>("[data-open]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const id = button.getAttribute("data-open");
+        const tpl = document.querySelector(`#scans-${id}`);
+        if (!tpl?.textContent) return;
+        show(JSON.parse(tpl.textContent));
+      });
+    });
+    document.querySelector("#lb-close")?.addEventListener("click", () => dialog?.close());
+    dialog?.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+  </script>
+</Base>

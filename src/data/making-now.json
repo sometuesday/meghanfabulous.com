@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "id": "dior-saddle",
+      "date": "2026-08-08",
+      "dateLabel": "8 August 2026",
+      "title": "The Dior Saddle bag",
+      "image": "/images/picks/35_making-now_dior-saddle-restored-at-sea.webp",
+      "width": 1015,
+      "height": 1800,
+      "alt": "A restored and embellished Dior Saddle bag, made aboard during the Pacific crossing.",
+      "instagram": "https://www.instagram.com/p/DbyyoZYy8Wy/",
+      "text": "A 2001 Dior Saddle bag, restored over 78 hours of night watches on the Pacific crossing. Charms, her grandmother’s nautical buttons, and milagros.",
+      "behind": true
+    },
+    {
+      "id": "finding-my-art",
+      "date": "2026-04-03",
+      "dateLabel": "3 April 2026",
+      "title": "Finding my art again",
+      "image": "/images/picks/36_making-now_beaded-bag-finding-my-art.webp",
+      "width": 640,
+      "height": 1136,
+      "alt": "A beaded bag in progress, photographed at sea.",
+      "instagram": "https://www.instagram.com/p/DWrGu_nEZkz/",
+      "text": "A beaded bag, started again after the business closed. The work is the point.",
+      "behind": true
+    },
+    {
+      "id": "ooak",
+      "date": "2026-09-21",
+      "dateLabel": "21 September 2026",
+      "title": "One of a kind",
+      "image": "/images/picks/37_making-now_ooak-embellished-bag.webp",
+      "width": 1012,
+      "height": 1800,
+      "alt": "An embellished one-of-a-kind bag held up to the light.",
+      "instagram": "https://www.instagram.com/p/Ddj9JRRtDgA/",
+      "text": "An embellished bag, one of a kind, finished aboard.",
+      "behind": true
+    },
+    {
+      "id": "dinghy",
+      "date": "2026-08-14",
+      "dateLabel": "14 August 2026",
+      "title": "In the dinghy",
+      "image": "/images/picks/38_making-now_dinghy-but-make-it-fabulous.webp",
+      "width": 1350,
+      "height": 1800,
+      "alt": "Meghan holding a finished embellished bag in the dinghy.",
+      "instagram": "https://www.instagram.com/p/DcB9l-1y_Bg/",
+      "text": "The finished bag, in the dinghy. Made because she wanted to make it.",
+      "behind": true
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.meghanfabulous.com/sitemap-index.xml

@@ -1,0 +1,2735 @@
+{
+  "items": [
+    {
+      "date": "2003-09-15",
+      "dateLabel": "15 September 2003",
+      "year": 2003,
+      "outlet": "Daily Pilot",
+      "headline": "Home sweet home for fashion designer",
+      "type": "newspaper",
+      "filters": [
+        "all",
+        "newspapers"
+      ],
+      "url": "https://www.latimes.com/socal/daily-pilot/news/tn-dpt-xpm-2003-09-15-export20101-story.html",
+      "note": "Lolita Harper. Hand-sewing at four, FIT, and internships with Ralph Lauren, Calvin Klein and Versace. Megan Noland Inc. founded 1 January 2001, from a back room in Belmont Shore.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-first-label",
+      "coverAlt": "",
+      "id": "daily-pilot-2003"
+    },
+    {
+      "date": "2003",
+      "dateLabel": "2003",
+      "year": 2003,
+      "outlet": "Us Weekly",
+      "headline": "Buzzometer",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Britney Spears and Jessica Simpson in her T-shirt collection, as she later recalled. The clipping itself is not in the archive.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-first-label",
+      "coverAlt": "",
+      "id": "buzzometer-2003"
+    },
+    {
+      "date": "2004-11-19",
+      "dateLabel": "19 November 2004",
+      "year": 2004,
+      "outlet": "California Apparel News",
+      "headline": "Los Angeles Fashion Week Spring '05: Meghan Fabulous",
+      "type": "trade",
+      "filters": [
+        "all",
+        "runway"
+      ],
+      "url": "https://www.apparelnews.net/news/2004/nov/19/los-angeles-fashion-week-spring-05-meghan-fabulous/",
+      "note": "Andrew Asch. Thirty looks, 29 October 2004, Blu Pinstripe Warehouse. The hand-dyed silk \u201cB-Rad Dead\u201d dress.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-runway-years",
+      "coverAlt": "",
+      "id": "apparel-news-2004"
+    },
+    {
+      "date": "2005-01-04",
+      "dateLabel": "4 January 2005",
+      "year": 2005,
+      "outlet": "Los Angeles Times",
+      "headline": "Grabbed bags",
+      "type": "newspaper",
+      "filters": [
+        "all",
+        "newspapers",
+        "worn-by"
+      ],
+      "url": "https://www.latimes.com/archives/la-xpm-2005-jan-04-et-backlash4-story.html",
+      "note": "Leslie Gornstein. Plastic purses and colorful dashikis, and buyers such as Pink and Angelina Jolie.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-runway-years",
+      "coverAlt": "",
+      "id": "latimes-2005-01"
+    },
+    {
+      "date": "2005-03-21",
+      "dateLabel": "21 March 2005",
+      "year": 2005,
+      "outlet": "Los Angeles Times",
+      "headline": "Looking for a leader in the pack",
+      "type": "newspaper",
+      "filters": [
+        "all",
+        "newspapers",
+        "runway"
+      ],
+      "url": "https://www.latimes.com/archives/la-xpm-2005-mar-21-et-fashion21-story.html",
+      "note": "Booth Moore, on the fall shows: reworked vintage, a kimono geisha tunic, and a sari halter gown with mirrors.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-runway-years",
+      "coverAlt": "",
+      "id": "latimes-2005-03"
+    },
+    {
+      "date": "2005-03",
+      "dateLabel": "March 2005",
+      "year": 2005,
+      "outlet": "Elle",
+      "headline": "Editorial pages",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "The month is taken from the filename of the tear sheets.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/shopify-press/ellemagazinemarch2005.webp",
+          "w": 1212,
+          "h": 1700,
+          "alt": "An Elle magazine page, March 2005, featuring a Meghan Fabulous look."
+        },
+        {
+          "src": "/images/press/shopify-press/ellemagazine2005.webp",
+          "w": 1344,
+          "h": 1730,
+          "alt": "An Elle magazine page from 2005."
+        },
+        {
+          "src": "/images/press/shopify-press/ellemagazine2005_2.webp",
+          "w": 1296,
+          "h": 1800,
+          "alt": "An Elle magazine page from 2005, a full-length printed dress."
+        }
+      ],
+      "featured": true,
+      "era": "the-runway-years",
+      "coverAlt": "Elle, March 2005",
+      "id": "elle-2005"
+    },
+    {
+      "date": "2005",
+      "dateLabel": "2005",
+      "year": 2005,
+      "outlet": "Rolling Stone",
+      "headline": "Hot List 2005",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Evangeline Lilly on the Hot List cover, wearing Meghan, as the 2011 editorials list records it. The issue date inside 2005 is not on the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/shopify-press/rollingstonemagazine.webp",
+          "w": 1306,
+          "h": 1710,
+          "alt": "Rolling Stone Hot List 2005 cover."
+        }
+      ],
+      "featured": true,
+      "era": "the-runway-years",
+      "coverAlt": "Rolling Stone, Hot List 2005",
+      "id": "rolling-stone-2005"
+    },
+    {
+      "date": "2006-03-26",
+      "dateLabel": "26 March 2006",
+      "year": 2006,
+      "outlet": "LA Weekly",
+      "headline": "Meghan Fabulous \u2014 The Name Says It All",
+      "type": "newspaper",
+      "filters": [
+        "all",
+        "newspapers",
+        "runway"
+      ],
+      "url": "https://www.laweekly.com/meghan-fabulous-the-name-says-it-all/",
+      "note": "Linda Immediato, on the James Blonde show, and on Meghan\u2019s older models.",
+      "quote": "My favorite\u2026 by far the sexiest.",
+      "scans": [],
+      "featured": false,
+      "era": "the-runway-years",
+      "coverAlt": "",
+      "id": "la-weekly-2006"
+    },
+    {
+      "date": "2006-03-31",
+      "dateLabel": "31 March 2006",
+      "year": 2006,
+      "outlet": "California Apparel News",
+      "headline": "Los Angeles Fashion Week Fall '06: Meghan",
+      "type": "trade",
+      "filters": [
+        "all",
+        "runway"
+      ],
+      "url": "https://www.apparelnews.net/news/2006/mar/31/los-angeles-fashion-week-fall-06-meghan/",
+      "note": "Rhea Cortado. \u201cJames Blonde,\u201d Smashbox, 16 March 2006.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-runway-years",
+      "coverAlt": "",
+      "id": "apparel-news-2006-03"
+    },
+    {
+      "date": "2006-10-20",
+      "dateLabel": "20 October 2006",
+      "year": 2006,
+      "outlet": "California Apparel News",
+      "headline": "L.A. Fashion Week Spring '07: Meghan Fabulous",
+      "type": "trade",
+      "filters": [
+        "all",
+        "runway"
+      ],
+      "url": "https://www.apparelnews.net/news/2006/oct/20/la-fashion-week-spring-07-meghan-fabulous/",
+      "note": "N. Jayne Seward. \u201cNo-Tel Motel,\u201d Smashbox, 15 October 2006. Beer-can crochet hats and butterfly prints.",
+      "quote": "I put it in my Meghan blender, and then I pour my cocktail.",
+      "scans": [],
+      "featured": false,
+      "era": "the-runway-years",
+      "coverAlt": "",
+      "id": "apparel-news-2006-10"
+    },
+    {
+      "date": "2007-10-14",
+      "dateLabel": "14 October 2007",
+      "year": 2007,
+      "outlet": "Los Angeles Times",
+      "headline": "Model, designer, DJ, pizza heiress",
+      "type": "newspaper",
+      "filters": [
+        "all",
+        "newspapers",
+        "runway"
+      ],
+      "url": "https://www.latimes.com/archives/la-xpm-2007-oct-14-ig-caroline14-story.html",
+      "note": "Adam Tschorn. A passing mention: Caroline D\u2019Amore DJ\u2019d a Meghan Fabulous Los Angeles Fashion Week show.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-runway-years",
+      "coverAlt": "",
+      "id": "latimes-2007"
+    },
+    {
+      "date": "2008-03-13",
+      "dateLabel": "13 March 2008",
+      "year": 2008,
+      "outlet": "WWD",
+      "headline": "FIG Gets Full",
+      "type": "trade",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Guest of honour at the Dallas Fashion Industry Gallery cocktail party, 27 March 2008. The article is paywalled.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "wwd-2008"
+    },
+    {
+      "date": "2008-05",
+      "dateLabel": "May 2008",
+      "year": 2008,
+      "outlet": "styleinterviews.com",
+      "headline": "Interview",
+      "type": "online",
+      "filters": [
+        "all"
+      ],
+      "url": "http://styleinterviews.com/interviews/meghan-fabulous",
+      "note": "Mentions a Meghan shop-in-shop planned at Harrods. No opening date is used here.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "styleinterviews-2008"
+    },
+    {
+      "date": "2008-09-11",
+      "dateLabel": "11 September 2008",
+      "year": 2008,
+      "outlet": "Drapers",
+      "headline": "Brand watch: Meghan Fabulous",
+      "type": "trade",
+      "filters": [
+        "all",
+        "uk",
+        "magazines"
+      ],
+      "url": "https://www.drapersonline.com/news/brand-watch-meghan-fabulous",
+      "note": "More than 50 UK stockists since 2006, including ASOS, Fenwick and Harrods. A Harrods \u201cMeghan Loft\u201d shop-in-shop was planned. Ten to twelve collections a year. The tear sheet is not in this archive.",
+      "quote": "",
+      "scans": [],
+      "featured": true,
+      "era": "the-world",
+      "coverAlt": "Drapers, 2008",
+      "id": "drapers-2008"
+    },
+    {
+      "date": "2008",
+      "dateLabel": "2008",
+      "year": 2008,
+      "outlet": "Harper's Bazaar",
+      "headline": "Shakira in the Lulu Dress",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Which edition is not printed on the scan we have. Often described as Bazaar Latin America.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/shopify-press/bazzarshakira.webp",
+          "w": 1294,
+          "h": 1800,
+          "alt": "Shakira in a printed Meghan Fabulous gown, a Harper's Bazaar page."
+        },
+        {
+          "src": "/images/press/shopify-press/bazaarmagazine.webp",
+          "w": 1206,
+          "h": 1736,
+          "alt": "A Harper's Bazaar page featuring Meghan Fabulous."
+        },
+        {
+          "src": "/images/press/shopify-press/bazzar.webp",
+          "w": 1350,
+          "h": 1748,
+          "alt": "A Harper's Bazaar clipping."
+        },
+        {
+          "src": "/images/press/blogspot-2008/281dc107_bazaar_shakira_meghan.webp",
+          "w": 710,
+          "h": 1024,
+          "alt": "Shakira in the Lulu dress, from the 2008 Daily Fab."
+        }
+      ],
+      "featured": true,
+      "era": "the-world",
+      "coverAlt": "Harper's Bazaar",
+      "id": "bazaar-shakira-2008"
+    },
+    {
+      "date": "2008-09-07",
+      "dateLabel": "7 September 2008",
+      "year": 2008,
+      "outlet": "People",
+      "headline": "Mel B in the Shirley Dress at the MTV VMAs",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "People.com and People StyleWatch reported the look. No photograph is shown here.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "mel-b-2008"
+    },
+    {
+      "date": "2008-11-19",
+      "dateLabel": "19 November 2008",
+      "year": 2008,
+      "outlet": "Glitter",
+      "headline": "Japan feature",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "japan"
+      ],
+      "url": "",
+      "note": "A two-page spread, the first of many Japan features through 2012.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/blogspot-2008/c0f3f9d0_glitter.webp",
+          "w": 592,
+          "h": 800,
+          "alt": "A Glitter magazine page from November 2008."
+        },
+        {
+          "src": "/images/press/blogspot-2008/82bc038b_glitter2.webp",
+          "w": 635,
+          "h": 800,
+          "alt": "A second Glitter magazine page from 2008."
+        }
+      ],
+      "featured": true,
+      "era": "the-world",
+      "coverAlt": "Glitter, 2008",
+      "id": "glitter-2008"
+    },
+    {
+      "date": "2008",
+      "dateLabel": "2008",
+      "year": 2008,
+      "outlet": "Jewel",
+      "headline": "Sanaa Lathan cover",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Sanaa Lathan on the cover, in Meghan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/sanaa2.webp",
+          "w": 500,
+          "h": 677,
+          "alt": "Jewel magazine cover featuring Sanaa Lathan."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "jewel-2008"
+    },
+    {
+      "date": "2008-12",
+      "dateLabel": "December 2008",
+      "year": 2008,
+      "outlet": "H Magazine",
+      "headline": "Twilight cast",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "The Twilight cast photographed in Meghan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/blogspot-2008/6efbadf7_twilight1.webp",
+          "w": 450,
+          "h": 600,
+          "alt": "An H Magazine page with the Twilight cast in Meghan Fabulous."
+        },
+        {
+          "src": "/images/press/blogspot-2008/22213bc6_twilight2.webp",
+          "w": 800,
+          "h": 600,
+          "alt": "A second H Magazine page from the Twilight sitting."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "h-magazine-2008"
+    },
+    {
+      "date": "2008-11",
+      "dateLabel": "November 2008",
+      "year": 2008,
+      "outlet": "St. Louis Fashion Week",
+      "headline": "Featured designer",
+      "type": "runway",
+      "filters": [
+        "all",
+        "runway"
+      ],
+      "url": "",
+      "note": "A runway, not a magazine. Photographs from the Daily Fab.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/blogspot-2008/0485ea66_st-louis-7.webp",
+          "w": 480,
+          "h": 640,
+          "alt": "A runway look from St. Louis Fashion Week, November 2008."
+        },
+        {
+          "src": "/images/press/blogspot-2008/d254249e_st-louis-fashion-week.webp",
+          "w": 480,
+          "h": 640,
+          "alt": "St. Louis Fashion Week runway, November 2008."
+        },
+        {
+          "src": "/images/press/blogspot-2008/bd0dfe3f_st-louis-week1.webp",
+          "w": 640,
+          "h": 480,
+          "alt": "Backstage or runway at St. Louis Fashion Week, 2008."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "st-louis-2008"
+    },
+    {
+      "date": "2008",
+      "dateLabel": "2008",
+      "year": 2008,
+      "outlet": "Alive",
+      "headline": "Lookbook editorial and advertisement",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "St. Louis. The scan is not in this archive.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "alive-2008"
+    },
+    {
+      "date": "2008-11",
+      "dateLabel": "November 2008",
+      "year": 2008,
+      "outlet": "E! The Daily 10",
+      "headline": "Television segment",
+      "type": "tv",
+      "filters": [
+        "all",
+        "tv"
+      ],
+      "url": "",
+      "note": "",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/blogspot-2008/87620772_daily10.webp",
+          "w": 450,
+          "h": 627,
+          "alt": "A still from E! The Daily 10, November 2008."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "daily-10-2008"
+    },
+    {
+      "date": "2009-03",
+      "dateLabel": "March 2009",
+      "year": 2009,
+      "outlet": "E! The Daily 10",
+      "headline": "Television segment",
+      "type": "tv",
+      "filters": [
+        "all",
+        "tv"
+      ],
+      "url": "",
+      "note": "",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/blogspot-2008/8ec95cc2_dail102.webp",
+          "w": 450,
+          "h": 627,
+          "alt": "A still from E! The Daily 10, March 2009."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "daily-10-2009"
+    },
+    {
+      "date": "2009-06",
+      "dateLabel": "June 2009",
+      "year": 2009,
+      "outlet": "Glamour",
+      "headline": "Feature",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "The edition is not identified beyond the month.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/blogspot-2008/7bd98264_glamour.webp",
+          "w": 800,
+          "h": 533,
+          "alt": "A Glamour page, June 2009."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "glamour-2009"
+    },
+    {
+      "date": "2009",
+      "dateLabel": "2009",
+      "year": 2009,
+      "outlet": "WWD",
+      "headline": "A cape",
+      "type": "trade",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "An editorial featuring a Meghan cape.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/shopify-press/wwd2009.webp",
+          "w": 1414,
+          "h": 1800,
+          "alt": "A WWD page from 2009 featuring a cape."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "wwd-2009"
+    },
+    {
+      "date": "2009",
+      "dateLabel": "2009",
+      "year": 2009,
+      "outlet": "Malibu Magazine",
+      "headline": "Editorial",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/shopify-press/malibumagazine2009.webp",
+          "w": 1354,
+          "h": 1800,
+          "alt": "A Malibu Magazine page, 2009."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "malibu-2009"
+    },
+    {
+      "date": "2010-05-29",
+      "dateLabel": "29 May 2010",
+      "year": 2010,
+      "outlet": "Jamaica Observer",
+      "headline": "Cocktails with\u2026 Meghan Fabulous",
+      "type": "newspaper",
+      "filters": [
+        "all",
+        "newspapers"
+      ],
+      "url": "https://www.jamaicaobserver.com/2010/05/29/cocktails-with-meghan-fabulous/",
+      "note": "A trunk show at KERRY in Jamaica, and a stockist list in her own words: Kitson, Beymen, Bloomingdale\u2019s Dubai, Harrods, Luisa Via Roma, and more than 30 other countries. Shakira named as a favourite client.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "jamaica-2010"
+    },
+    {
+      "date": "2010",
+      "dateLabel": "2010",
+      "year": 2010,
+      "outlet": "Tokyo Girls Collection",
+      "headline": "Tokyo Girls Collection",
+      "type": "runway",
+      "filters": [
+        "all",
+        "japan",
+        "runway"
+      ],
+      "url": "",
+      "note": "Listed among the Japan run of 2010\u201312. No photograph is in the archive.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "tgc-2010"
+    },
+    {
+      "date": "2010-02-28",
+      "dateLabel": "28 February 2010",
+      "year": 2010,
+      "outlet": "MAG Dergi",
+      "headline": "Studio interview",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Turkey. No link or scan is in the archive.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "mag-dergi-2010"
+    },
+    {
+      "date": "2011",
+      "dateLabel": "2011",
+      "year": 2011,
+      "outlet": "QVC",
+      "headline": "Up and Coming Fashion Week Designer",
+      "type": "tv",
+      "filters": [
+        "all",
+        "tv"
+      ],
+      "url": "",
+      "note": "Airings on 11 February 2011 and 22 September 2011. California Apparel News confirmed the QVC appearances in 2016.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "qvc-2011"
+    },
+    {
+      "date": "2011-03",
+      "dateLabel": "March 2011",
+      "year": 2011,
+      "outlet": "Glitter",
+      "headline": "Japan, four pages",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "japan"
+      ],
+      "url": "",
+      "note": "",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-pdf-pages/glitter-japan-2011-03-1.webp",
+          "w": 910,
+          "h": 1287,
+          "alt": "A page from Glitter, March 2011, page 1."
+        },
+        {
+          "src": "/images/press/dropbox-pdf-pages/glitter-japan-2011-03-2.webp",
+          "w": 910,
+          "h": 1287,
+          "alt": "A page from Glitter, March 2011, page 2."
+        },
+        {
+          "src": "/images/press/dropbox-pdf-pages/glitter-japan-2011-03-3.webp",
+          "w": 910,
+          "h": 1287,
+          "alt": "A page from Glitter, March 2011, page 3."
+        },
+        {
+          "src": "/images/press/dropbox-pdf-pages/glitter-japan-2011-03-4.webp",
+          "w": 910,
+          "h": 1287,
+          "alt": "A page from Glitter, March 2011, page 4."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "glitter-2011"
+    },
+    {
+      "date": "2011-08",
+      "dateLabel": "August 2011",
+      "year": 2011,
+      "outlet": "Vogue",
+      "headline": "Meghan / Masculine Mode",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "japan"
+      ],
+      "url": "",
+      "note": "The filename points to Vogue, likely the Japanese edition.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-pdf-pages/vogue-2011-08-masculine-mode-1.webp",
+          "w": 910,
+          "h": 1287,
+          "alt": "A Vogue page, August 2011, headed Meghan / Masculine Mode."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "vogue-2011-08"
+    },
+    {
+      "date": "2011-09",
+      "dateLabel": "September 2011",
+      "year": 2011,
+      "outlet": "Grazia Japan",
+      "headline": "Meghan LA",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "japan"
+      ],
+      "url": "",
+      "note": "",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/2011_September_Grazia_Japan_cover.webp",
+          "w": 1163,
+          "h": 1600,
+          "alt": "Grazia Japan cover, September 2011."
+        },
+        {
+          "src": "/images/press/dropbox-celebrities/2011_0900_Grazia-Japan_Meghan-LA-copy.webp",
+          "w": 1273,
+          "h": 1600,
+          "alt": "A Grazia Japan page featuring Meghan LA, September 2011."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "grazia-2011"
+    },
+    {
+      "date": "2011-10",
+      "dateLabel": "October 2011",
+      "year": 2011,
+      "outlet": "Cosmopolitan",
+      "headline": "Meghan LA",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/2011_1000_Cosmopolitan_Meghan-LA-copy.webp",
+          "w": 1273,
+          "h": 1600,
+          "alt": "A Cosmopolitan page featuring Meghan LA, October 2011."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "cosmo-2011"
+    },
+    {
+      "date": "2011-10-10",
+      "dateLabel": "10 October 2011",
+      "year": 2011,
+      "outlet": "People",
+      "headline": "Tia Mowry in Meghan",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/2011_1010_People_Meghan_Tia-Mowry.webp",
+          "w": 1163,
+          "h": 1600,
+          "alt": "A People page, 10 October 2011, with Tia Mowry in Meghan."
+        },
+        {
+          "src": "/images/press/dropbox-celebrities/2011_1010_People_Meghan_Tia-Mowry1.webp",
+          "w": 1163,
+          "h": 1600,
+          "alt": "A second People page with Tia Mowry, October 2011."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "people-tia-2011"
+    },
+    {
+      "date": "2011",
+      "dateLabel": "2011",
+      "year": 2011,
+      "outlet": "M&W",
+      "headline": "Volume 003, cover and page 17",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/MandW-Magazine-vol.003-2011-.webp",
+          "w": 767,
+          "h": 1024,
+          "alt": "M&W magazine volume 003, 2011, cover."
+        },
+        {
+          "src": "/images/press/dropbox-celebrities/MandW-Magazine-vol.003-2011-P17.webp",
+          "w": 744,
+          "h": 1024,
+          "alt": "M&W magazine volume 003, 2011, page 17."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "mw-2011"
+    },
+    {
+      "date": "2016-09-22",
+      "dateLabel": "22 September 2016",
+      "year": 2016,
+      "outlet": "California Apparel News",
+      "headline": "What's at Stake if a Designer's Name is Part of the Label?",
+      "type": "trade",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "https://www.apparelnews.net/news/2016/sep/22/whats-stake-if-designers-name-part-label/",
+      "note": "She lost the commercial right to the name Meghan Noland, later bought the trademark back, and had sold Meghan Los Angeles at Nordstrom, HauteLook and Poshmark. QVC is mentioned. The partner is not named here.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/Meghan_Noland_Apparel-News.webp",
+          "w": 650,
+          "h": 576,
+          "alt": "California Apparel News photograph of Meghan Noland."
+        }
+      ],
+      "featured": false,
+      "era": "reinvention",
+      "coverAlt": "",
+      "id": "apparel-news-2016"
+    },
+    {
+      "date": "2016-09",
+      "dateLabel": "September 2016",
+      "year": 2016,
+      "outlet": "Vogue",
+      "headline": "Japanese edition, cover and page",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "japan"
+      ],
+      "url": "",
+      "note": "The month is the one in the filename. The cover is a Japanese edition.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/Vogue-Cover-Sept.-2016.webp",
+          "w": 769,
+          "h": 1025,
+          "alt": "A Vogue cover, Japanese edition, September 2016."
+        },
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/Vogue-Sept.-2016.webp",
+          "w": 802,
+          "h": 1080,
+          "alt": "An inside page from Vogue, September 2016."
+        }
+      ],
+      "featured": false,
+      "era": "reinvention",
+      "coverAlt": "",
+      "id": "vogue-2016-09"
+    },
+    {
+      "date": "2016",
+      "dateLabel": "2016",
+      "year": 2016,
+      "outlet": "Vogue",
+      "headline": "Shopping page",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "The year comes from the Shopify filename.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/shopify-press/vogue2016.webp",
+          "w": 1354,
+          "h": 1800,
+          "alt": "A Vogue shopping page filed as 2016."
+        }
+      ],
+      "featured": false,
+      "era": "reinvention",
+      "coverAlt": "",
+      "id": "vogue-shop-2016"
+    },
+    {
+      "date": "2016",
+      "dateLabel": "2016",
+      "year": 2016,
+      "outlet": "Vogue Japan",
+      "headline": "Shopping page",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "japan"
+      ],
+      "url": "",
+      "note": "The year comes from the Shopify filename.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/shopify-press/voguejapan2016.webp",
+          "w": 1307,
+          "h": 1800,
+          "alt": "A Vogue Japan shopping page filed as 2016."
+        }
+      ],
+      "featured": false,
+      "era": "reinvention",
+      "coverAlt": "",
+      "id": "vogue-japan-file-2016"
+    },
+    {
+      "date": "2016",
+      "dateLabel": "2016",
+      "year": 2016,
+      "outlet": "Elle",
+      "headline": "Shopping page",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "The year comes from the Shopify filename.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/shopify-press/ellemagazine2016.webp",
+          "w": 1367,
+          "h": 1760,
+          "alt": "An Elle page filed as 2016."
+        }
+      ],
+      "featured": false,
+      "era": "reinvention",
+      "coverAlt": "",
+      "id": "elle-2016"
+    },
+    {
+      "date": "2016",
+      "dateLabel": "2016",
+      "year": 2016,
+      "outlet": "LA Fashion Magazine",
+      "headline": "Cover and feature",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "The year comes from the Shopify filename.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/shopify-press/lafashionmagazine2016.webp",
+          "w": 1380,
+          "h": 1754,
+          "alt": "LA Fashion Magazine, filed as 2016."
+        }
+      ],
+      "featured": false,
+      "era": "reinvention",
+      "coverAlt": "",
+      "id": "la-fashion-2016"
+    },
+    {
+      "date": "2020-07-01",
+      "dateLabel": "1 July 2020",
+      "year": 2020,
+      "outlet": "Digital Commerce 360",
+      "headline": "How designer Meghan Fabulous is building her direct business online",
+      "type": "online",
+      "filters": [
+        "all",
+        "business"
+      ],
+      "url": "https://www.digitalcommerce360.com/2020/07/01/how-designer-meghan-fabulous-is-building-her-direct-business-online/",
+      "note": "Don Davis. Linked from the 2020 press page.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "dc360-2020"
+    },
+    {
+      "date": "2021",
+      "dateLabel": "2021",
+      "year": 2021,
+      "outlet": "Sheen Magazine",
+      "headline": "Just Landed",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "http://www.sheenmagazine.com/just-landed/",
+      "note": "Wardrobe and golden gloves by Meghan Fabulous.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-pdf-pages/sheen-magazine-2021-just-landed-1.webp",
+          "w": 347,
+          "h": 1800,
+          "alt": "A Sheen Magazine page from the Just Landed story, 2021."
+        }
+      ],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "sheen-2021"
+    },
+    {
+      "date": "2021-03",
+      "dateLabel": "March 2021",
+      "year": 2021,
+      "outlet": "Selin Magazine",
+      "headline": "Aquarian Entropy, volume 5",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "An underwater and floral editorial. The credits page is in the set.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/selin-magazine-2021-03/VOL.-5-.webp",
+          "w": 1228,
+          "h": 1600,
+          "alt": "A page from Selin Magazine volume 5, March 2021."
+        },
+        {
+          "src": "/images/press/selin-magazine-2021-03/VOL.-5-2.webp",
+          "w": 1228,
+          "h": 1600,
+          "alt": "A page from Selin Magazine volume 5, March 2021."
+        },
+        {
+          "src": "/images/press/selin-magazine-2021-03/VOL.-5-3.webp",
+          "w": 1228,
+          "h": 1600,
+          "alt": "A page from Selin Magazine volume 5, March 2021."
+        },
+        {
+          "src": "/images/press/selin-magazine-2021-03/VOL.-5-4.webp",
+          "w": 1228,
+          "h": 1600,
+          "alt": "A page from Selin Magazine volume 5, March 2021."
+        },
+        {
+          "src": "/images/press/selin-magazine-2021-03/VOL.-5-5.webp",
+          "w": 1228,
+          "h": 1600,
+          "alt": "A page from Selin Magazine volume 5, March 2021."
+        },
+        {
+          "src": "/images/press/selin-magazine-2021-03/VOL.-5-6.webp",
+          "w": 1228,
+          "h": 1600,
+          "alt": "A page from Selin Magazine volume 5, March 2021."
+        },
+        {
+          "src": "/images/press/selin-magazine-2021-03/VOL.-5-7.webp",
+          "w": 1228,
+          "h": 1600,
+          "alt": "A page from Selin Magazine volume 5, March 2021."
+        }
+      ],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "selin-2021"
+    },
+    {
+      "date": "2021-11-04",
+      "dateLabel": "4 November 2021",
+      "year": 2021,
+      "outlet": "Reuters",
+      "headline": "Retailers dream of a glitzy Christmas, even as supply chain snarls loom",
+      "type": "newspaper",
+      "filters": [
+        "all",
+        "business",
+        "newspapers"
+      ],
+      "url": "",
+      "note": "Mimosa Spencer, Richa Naidu and Arriana McLymore. Meghan Fabulous is named as an apparel maker producing in India, China and Los Angeles. A business story, not a fashion feature.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "reuters-2021"
+    },
+    {
+      "date": "2021-09",
+      "dateLabel": "September 2021",
+      "year": 2021,
+      "outlet": "Cin7",
+      "headline": "Pandemic Business Boom",
+      "type": "case-study",
+      "filters": [
+        "all",
+        "business"
+      ],
+      "url": "",
+      "note": "A vendor case study and trends report. Not a fashion feature.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "cin7-2021"
+    },
+    {
+      "date": null,
+      "dateLabel": "c. 2021\u201323",
+      "year": 2022,
+      "outlet": "New York Magazine / The Strategist",
+      "headline": "Best jumpsuits for tall women",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "https://nymag.com/strategist/article/best-jumpsuits-for-tall-women.html",
+      "note": "The Wild Orchid Pleat Jumpsuit, which she has said she designed in 2015. Her journal quotes the writer: \u201cliterally made me scream.\u201d The spread of years is the one in the register.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/picks/25_press_nymag_wild-orchid-jumpsuit.webp",
+          "w": 1000,
+          "h": 600,
+          "alt": "Two models in pleated jumpsuits, the image that ran with the Strategist mention."
+        }
+      ],
+      "featured": false,
+      "era": "reinvention",
+      "coverAlt": "",
+      "id": "nymag"
+    },
+    {
+      "date": "2023-12",
+      "dateLabel": "December 2023",
+      "year": 2023,
+      "outlet": "Us Weekly",
+      "headline": "Introducing Meghan Fabulous: Your New Favorite Boho-Chic Brand",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "https://www.usmagazine.com/shop-with-us/news/meghan-fabulous-boho-dress-styles/",
+      "note": "Shop With Us. Presented here as a feature, which is how the magazine framed it.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/picks/26_press_usweekly_boho-chic.webp",
+          "w": 1000,
+          "h": 600,
+          "alt": "Us Weekly feature card for Meghan Fabulous."
+        }
+      ],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "us-weekly-2023"
+    },
+    {
+      "date": "2023",
+      "dateLabel": "2023",
+      "year": 2023,
+      "outlet": "Palos Verdes Pulse",
+      "headline": "The Perseverance of Meghan Fabulous: Sparkle Never Hurt Anyone!",
+      "type": "online",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "https://www.palosverdespulse.com/blog/meghanfabulous",
+      "note": "Jennifer Boissavy. Childhood in Palos Verdes, the studio in El Segundo, and butterflies for her late mother.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "pv-pulse-2023"
+    },
+    {
+      "date": "2022-01",
+      "dateLabel": "January 2022",
+      "year": 2022,
+      "outlet": "Digital Commerce 360",
+      "headline": "Retailers look for answers as returns grow more complex and costly",
+      "type": "online",
+      "filters": [
+        "all",
+        "business"
+      ],
+      "url": "",
+      "note": "Steve Dunlap, then CEO of Meghan Inc., and dress designer Meghan Noland. A business story. No sales figures are repeated here.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "dc360-2022"
+    },
+    {
+      "date": "2022-08-08",
+      "dateLabel": "8 August 2022",
+      "year": 2022,
+      "outlet": "Times of E",
+      "headline": "Main Street Caught in a Whipsaw as the Fed Looks to Combat Inflation",
+      "type": "online",
+      "filters": [
+        "all",
+        "business"
+      ],
+      "url": "",
+      "note": "\u201cMeghan Noland founded her own brand, Meghan Fabulous.\u201d A business story.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "times-of-e-2022"
+    },
+    {
+      "date": "2023-01-04",
+      "dateLabel": "4 January 2023",
+      "year": 2023,
+      "outlet": "EIN Presswire",
+      "headline": "Reeves & Co showroom partnership",
+      "type": "release",
+      "filters": [
+        "all",
+        "business"
+      ],
+      "url": "https://www.einpresswire.com/article/609403532/meghan-fabulous-reeves-co-showroom-announce-partnership-to-further-advance-us-wholesale-distribution",
+      "note": "A release about wholesale representation.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "ein-2023"
+    },
+    {
+      "date": "2023-01-23",
+      "dateLabel": "23 January 2023",
+      "year": 2023,
+      "outlet": "Canvas Rebel",
+      "headline": "Meet Meghan Fabulous",
+      "type": "interview",
+      "filters": [
+        "all"
+      ],
+      "url": "https://canvasrebel.com/meet-meghan-fabulous/",
+      "note": "An interview.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "canvas-2023"
+    },
+    {
+      "date": "2024-06-10",
+      "dateLabel": "10 June 2024",
+      "year": 2024,
+      "outlet": "VoyageLA",
+      "headline": "Daily Inspiration: Meet Steve Dunlap and Meghan Fabulous",
+      "type": "interview",
+      "filters": [
+        "all"
+      ],
+      "url": "https://voyagela.com/interview/daily-inspiration-meet-steve-dunlap-and-meghan-fabulous/",
+      "note": "",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "voyage-2024"
+    },
+    {
+      "date": "2024-07-25",
+      "dateLabel": "25 July 2024",
+      "year": 2024,
+      "outlet": "LiveForLiveMusic",
+      "headline": "Touch Of Glam: How Paris Hilton & A Grateful Dead Tee Kickstarted Meghan Fabulous' Fashion Career",
+      "type": "online",
+      "filters": [
+        "all",
+        "worn-by"
+      ],
+      "url": "https://liveforlivemusic.com/features/touch-of-glam-meghan-fabulous-grateful-dead/",
+      "note": "James Sissler. The feature shows Paris Hilton in the Grateful Dead dress. Photograph by Jeff Kravitz. The photograph is not reproduced on this site.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "l4lm-2024"
+    },
+    {
+      "date": "2024-10-07",
+      "dateLabel": "7 October 2024",
+      "year": 2024,
+      "outlet": "Canvas Rebel",
+      "headline": "Meet Steve Dunlap and Meghan Fabulous",
+      "type": "interview",
+      "filters": [
+        "all"
+      ],
+      "url": "https://canvasrebel.com/meet-steve-dunlap-and-meghan-fabulous/",
+      "note": "",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "canvas-steve-2024"
+    },
+    {
+      "date": "2025-04-03",
+      "dateLabel": "3 April 2025",
+      "year": 2025,
+      "outlet": "Relix",
+      "headline": "Not Like Other Girls: Meghan Fabulous Talks Officially Licensed Grateful Dead Fashions",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "https://relix.com/news/detail/not-like-other-girls-meghan-fabulous-talks-officially-licensed-grateful-dead-fashions",
+      "note": "The licensed Grateful Dead collection, and her account of the Paris Hilton dress.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "grateful-dead-fabulous",
+      "coverAlt": "",
+      "id": "relix-2025"
+    },
+    {
+      "date": "2025-07-25",
+      "dateLabel": "25 July 2025",
+      "year": 2025,
+      "outlet": "Wolf & Badger",
+      "headline": "Feel-good wellness toolkit",
+      "type": "interview",
+      "filters": [
+        "all"
+      ],
+      "url": "https://www.wolfandbadger.com/us/magazine/inspiration/feel-good-wellness-toolkit",
+      "note": "A first-person note, not a review of the clothes.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "at-sea",
+      "coverAlt": "",
+      "id": "wolf-2025"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "InStyle",
+      "headline": "Ashlee Simpson in the Cali Top",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/ashlee.webp",
+          "w": 390,
+          "h": 513,
+          "alt": "Ashlee Simpson wearing the Cali Top, an InStyle page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "instyle-ashlee"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "InStyle",
+      "headline": "Samaire Armstrong",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/samairearmstrong.webp",
+          "w": 378,
+          "h": 513,
+          "alt": "Samaire Armstrong in an InStyle page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "instyle-samaire"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "InStyle",
+      "headline": "Editorial pages",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/shopify-press/instylemagazine.webp",
+          "w": 1295,
+          "h": 1800,
+          "alt": "An InStyle page featuring Meghan Fabulous."
+        },
+        {
+          "src": "/images/press/shopify-press/instyle.webp",
+          "w": 291,
+          "h": 400,
+          "alt": "An InStyle page featuring Meghan Fabulous."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "instyle-pages"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Angeleno",
+      "headline": "Heather Locklear in the Liar T",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/heatherlocklear.webp",
+          "w": 373,
+          "h": 513,
+          "alt": "Heather Locklear in the Liar T, an Angeleno page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "angeleno-locklear"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Entertainment Weekly",
+      "headline": "Jennifer Beals in the Geisha Top",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/jenniferbeals.webp",
+          "w": 423,
+          "h": 513,
+          "alt": "Jennifer Beals in an Entertainment Weekly page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "ew-beals"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Urb",
+      "headline": "Helen Marnie of Ladytron in the Casey Tunic",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/ladytron.webp",
+          "w": 415,
+          "h": 513,
+          "alt": "Helen Marnie of Ladytron, a Urb magazine page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "urb-ladytron"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Us Weekly",
+      "headline": "Maria Menounos and Mena Suvari in the Holly Tunic",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/usweeklymaria.webp",
+          "w": 382,
+          "h": 513,
+          "alt": "An Us Weekly page with Maria Menounos and Mena Suvari."
+        },
+        {
+          "src": "/images/press/dropbox-celebrities/mariamenounos2.webp",
+          "w": 382,
+          "h": 513,
+          "alt": "An Us Weekly page with Maria Menounos and Mena Suvari."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "usweekly-maria"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Heat / Vogue",
+      "headline": "Mena Suvari",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/menasuvari1.webp",
+          "w": 358,
+          "h": 513,
+          "alt": "A magazine page featuring Mena Suvari."
+        },
+        {
+          "src": "/images/press/dropbox-celebrities/menasuvari2.webp",
+          "w": 814,
+          "h": 525,
+          "alt": "A magazine page featuring Mena Suvari."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "mena-pages"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "InTouch",
+      "headline": "Willa Holland",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/willaholland.webp",
+          "w": 404,
+          "h": 513,
+          "alt": "Willa Holland, an InTouch page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "intouch-willa"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "MTV.com",
+      "headline": "Mya",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/mya2.webp",
+          "w": 427,
+          "h": 513,
+          "alt": "Mya in a Meghan dress, an MTV.com feature."
+        },
+        {
+          "src": "/images/press/dropbox-celebrities/mya1.webp",
+          "w": 184,
+          "h": 513,
+          "alt": "Mya in a Meghan dress, an MTV.com feature."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "mtv-mya"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Star",
+      "headline": "Kristen Bell in the Lesa Tunic",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/kristenbell3.webp",
+          "w": 367,
+          "h": 525,
+          "alt": "Kristen Bell in the Lesa Tunic, a Star magazine page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "star-kristen"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "OK!",
+      "headline": "Constance Zimmer in the Margaret Mini",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/constancezimmer.webp",
+          "w": 391,
+          "h": 513,
+          "alt": "Constance Zimmer, an OK! page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "ok-constance"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "USA Today / Life & Style",
+      "headline": "Jordin Sparks in the Lexi Tunic",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/jordinsparks2.webp",
+          "w": 399,
+          "h": 513,
+          "alt": "Jordin Sparks in the Lexi Tunic."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "jordin"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Vegas",
+      "headline": "Taryn Manning in the Fergie Dress",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/tarynmanning1.webp",
+          "w": 395,
+          "h": 513,
+          "alt": "Taryn Manning, a Vegas magazine page."
+        },
+        {
+          "src": "/images/press/dropbox-celebrities/tarynmanning2.webp",
+          "w": 388,
+          "h": 513,
+          "alt": "Taryn Manning, a Vegas magazine page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "vegas-taryn"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Papercut",
+      "headline": "Jaimie Alexander",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/JaimieAlexander_editorial-1.webp",
+          "w": 1200,
+          "h": 1564,
+          "alt": "Jaimie Alexander, a Papercut editorial page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "papercut-jaimie"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Radar",
+      "headline": "Shannen Doherty",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-celebrities/shannendoherty.webp",
+          "w": 385,
+          "h": 513,
+          "alt": "Shannen Doherty, a Radar page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "radar-shannen"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Glitter",
+      "headline": "Rydel Lynch cover",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines",
+        "worn-by"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/celebrity-Press-.webp",
+          "w": 478,
+          "h": 598,
+          "alt": "A Glitter cover featuring Rydel Lynch."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "glitter-us-rydel"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "\u00a1Hola!",
+      "headline": "Magazine page",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/Hola-Magazine.webp",
+          "w": 636,
+          "h": 640,
+          "alt": "An \u00a1Hola! magazine page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "hola"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "InTouch",
+      "headline": "Press pages",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. The outlet is the one named with the scan.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/InTouch-Press-Page-.webp",
+          "w": 1213,
+          "h": 1600,
+          "alt": "An InTouch magazine page."
+        },
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/InTouch-Press-Page--1.webp",
+          "w": 1172,
+          "h": 1600,
+          "alt": "An InTouch magazine page."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "intouch-pages"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/Press-1.webp",
+          "w": 1183,
+          "h": 1600,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-1"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-2.webp",
+          "w": 910,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-2"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-3.webp",
+          "w": 754,
+          "h": 1024,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-3"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-4.webp",
+          "w": 758,
+          "h": 1014,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-4"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-5.webp",
+          "w": 750,
+          "h": 1024,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-5"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-6.webp",
+          "w": 758,
+          "h": 1024,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-6"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-7.webp",
+          "w": 793,
+          "h": 1024,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-7"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-8.webp",
+          "w": 758,
+          "h": 1024,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-8"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-9.webp",
+          "w": 750,
+          "h": 1024,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-9"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-10.webp",
+          "w": 759,
+          "h": 1024,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-10"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-11.webp",
+          "w": 734,
+          "h": 1024,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-11"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-12.webp",
+          "w": 996,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-12"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-13.webp",
+          "w": 976,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-13"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-14.webp",
+          "w": 943,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-14"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-16.webp",
+          "w": 891,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-16"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-17.webp",
+          "w": 954,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-17"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-18.webp",
+          "w": 940,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-18"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-19.webp",
+          "w": 949,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-19"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-20.webp",
+          "w": 1181,
+          "h": 1600,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-20"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-21.webp",
+          "w": 995,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-21"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-22.webp",
+          "w": 947,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-22"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-23.webp",
+          "w": 996,
+          "h": 1280,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-23"
+    },
+    {
+      "date": null,
+      "dateLabel": "",
+      "year": null,
+      "outlet": "Magazine",
+      "headline": "Page from the international press archive",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Undated. Japanese and international covers and shopping pages are in this set. The outlet is not named here unless it is legible as a separate item above.",
+      "quote": "",
+      "scans": [
+        {
+          "src": "/images/press/dropbox-press-and-celebrity/press-24.webp",
+          "w": 1192,
+          "h": 1600,
+          "alt": "A magazine page from the Meghan Fabulous press archive."
+        }
+      ],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "international-page-24"
+    },
+    {
+      "date": null,
+      "dateLabel": "2010\u201312",
+      "year": 2011,
+      "outlet": "Japan",
+      "headline": "Elle Japan, Vogue Japan, Figaro Japon, 25ans, Glamorous, Exile, Slim Love",
+      "type": "magazine",
+      "filters": [
+        "all",
+        "japan",
+        "magazines"
+      ],
+      "url": "",
+      "note": "Titles she recorded from the Japan years. Individual issues are listed separately when a scan or a date exists. Glamorous also named a \u201cBora Bora Dress\u201d in 2012.",
+      "quote": "",
+      "scans": [],
+      "featured": false,
+      "era": "the-world",
+      "coverAlt": "",
+      "id": "japan-run"
+    }
+  ]
+}

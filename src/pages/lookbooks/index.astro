@@ -1,0 +1,46 @@
+---
+import Base from "../../layouts/Base.astro";
+import looks from "../../data/looks.json";
+
+const archetypes = looks.map((look) => look.archetype);
+---
+
+<Base
+  title="Lookbooks — Meghan Fabulous"
+  description="Undated lookbooks, browsed as archetypes: Disco Doll, California Girl, Rebel Rebel, Lady Jamaica, and the rest."
+>
+  <header class="page-head wrap">
+    <p class="label">Archetypes</p>
+    <h1>Lookbooks</h1>
+    <p class="prose">No years. No photographer credits. The clothes, sorted by the names she already gave them.</p>
+    <div class="filters" data-look-filters>
+      <button type="button" aria-pressed="true" data-archetype="all">All</button>
+      {archetypes.map((name) => <button type="button" aria-pressed="false" data-archetype={name}>{name}</button>)}
+    </div>
+  </header>
+  <div class="wrap grid-3" data-look-grid>
+    {
+      looks.map((look) => (
+        <a class="look-card" href={`/lookbooks/${look.slug}`} data-archetype={look.archetype}>
+          <img src={look.cover} alt={`A look from the ${look.name} lookbook.`} width="900" height="1200" />
+          <h2>{look.name}</h2>
+          <p class="label">{look.frames.length} frames</p>
+        </a>
+      ))
+    }
+  </div>
+  <script>
+    const buttons = document.querySelectorAll("[data-look-filters] button");
+    const cards = document.querySelectorAll("[data-look-grid] [data-archetype]");
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const name = button.getAttribute("data-archetype");
+        buttons.forEach((item) => item.setAttribute("aria-pressed", item === button ? "true" : "false"));
+        cards.forEach((card) => {
+          const show = name === "all" || card.getAttribute("data-archetype") === name;
+          (card as HTMLElement).hidden = !show;
+        });
+      });
+    });
+  </script>
+</Base>

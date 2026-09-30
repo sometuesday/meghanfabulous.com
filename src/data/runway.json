@@ -1,0 +1,40 @@
+[
+  {
+    "id": "spring-05",
+    "title": "Spring ’05",
+    "when": "29 October 2004",
+    "where": "Blu Pinstripe Warehouse, Los Angeles",
+    "text": "Thirty looks. Among them, the hand-dyed silk “B-Rad Dead” dress.",
+    "source": "California Apparel News, 19 November 2004",
+    "url": "https://www.apparelnews.net/news/2004/nov/19/los-angeles-fashion-week-spring-05-meghan-fabulous/"
+  },
+  {
+    "id": "james-blonde",
+    "title": "James Blonde",
+    "when": "16 March 2006",
+    "where": "Smashbox, Mercedes-Benz Fashion Week Los Angeles",
+    "text": "Linda Immediato, in LA Weekly, called the show her favorite, “by far the sexiest,” and noted the older models.",
+    "source": "LA Weekly, 26 March 2006; California Apparel News, 31 March 2006",
+    "url": "https://www.laweekly.com/meghan-fabulous-the-name-says-it-all/"
+  },
+  {
+    "id": "no-tel-motel",
+    "title": "No-Tel Motel",
+    "when": "15 October 2006",
+    "where": "Smashbox, Los Angeles",
+    "text": "Beer-can crochet hats and butterfly prints. “I put it in my Meghan blender, and then I pour my cocktail.”",
+    "source": "California Apparel News, 20 October 2006",
+    "url": "https://www.apparelnews.net/news/2006/oct/20/la-fashion-week-spring-07-meghan-fabulous/"
+  },
+  {
+    "id": "st-louis",
+    "title": "St. Louis Fashion Week",
+    "when": "November 2008",
+    "where": "St. Louis",
+    "text": "Featured designer. The runway photographs are from the Daily Fab.",
+    "source": "The Daily Fab, November 2008",
+    "url": "",
+    "image": "/images/picks/34_runway_st-louis-fashion-week-2008.webp",
+    "imageAlt": "A runway look from St. Louis Fashion Week, November 2008."
+  }
+]

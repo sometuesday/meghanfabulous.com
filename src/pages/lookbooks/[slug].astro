@@ -1,0 +1,35 @@
+---
+import Base from "../../layouts/Base.astro";
+import looks from "../../data/looks.json";
+
+export function getStaticPaths() {
+  return looks.map((look) => ({ params: { slug: look.slug }, props: { look } }));
+}
+
+const { look } = Astro.props;
+const index = looks.findIndex((item) => item.slug === look.slug);
+const next = looks[(index + 1) % looks.length];
+---
+
+<Base title={`${look.name} — Meghan Fabulous`} description={`The ${look.name} lookbook. Undated.`}>
+  <header class="page-head wrap">
+    <p class="label">Lookbook</p>
+    <h1>{look.name}</h1>
+    <p><a href="/lookbooks">All archetypes</a></p>
+  </header>
+  <div class="wrap grid-3">
+    {
+      look.frames.map((frame) => (
+        <figure>
+          <img src={frame.src} alt={frame.alt} width={frame.w} height={frame.h} loading="lazy" />
+        </figure>
+      ))
+    }
+  </div>
+  <div class="wrap">
+    <a class="next-era" href={`/lookbooks/${next.slug}`}>
+      <span>Next lookbook</span>
+      <span>{next.name} →</span>
+    </a>
+  </div>
+</Base>

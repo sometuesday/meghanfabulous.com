@@ -1,0 +1,166 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+import SeeThePhoto from "../../components/SeeThePhoto.astro";
+import looks from "../../data/looks.json";
+import pressData from "../../data/press.json";
+import dress from "../../data/paris-dress.json";
+
+export async function getStaticPaths() {
+  const eras = await getCollection("eras");
+  return eras.map((era) => ({ params: { slug: era.id }, props: { era } }));
+}
+
+const { era } = Astro.props;
+const { Content } = await render(era);
+const all = await getCollection("eras");
+const next = all.find((item) => item.id === era.data.next);
+const books = looks.filter((look) => era.data.lookbooks.includes(look.slug));
+const highlights: Record<string, string[]> = {
+  "the-first-label": ["daily-pilot-2003", "buzzometer-2003", "apparel-news-2016"],
+  "the-runway-years": ["apparel-news-2004", "rolling-stone-2005", "apparel-news-2006-10"],
+  "the-world": ["drapers-2008", "bazaar-shakira-2008", "glitter-2008"],
+  reinvention: ["nymag", "apparel-news-2016", "pv-pulse-2023"],
+  "grateful-dead-fabulous": ["l4lm-2024", "relix-2025", "sheen-2021"],
+  "at-sea": ["wolf-2025"],
+};
+const clips = (highlights[era.id] || [])
+  .map((id) => pressData.items.find((item) => item.id === id))
+  .filter((item) => item != null);
+
+const campaign = [
+  "/images/gd-campaign/4-Bertha-Goddess-Key-Image-copy.webp",
+  "/images/gd-campaign/4O8A5408-copy.webp",
+  "/images/gd-campaign/4O8A5434-copy.webp",
+  "/images/gd-campaign/4O8A5480-copy.webp",
+  "/images/gd-campaign/Photo-May-12-2024-10-27-40-AM-copy.webp",
+  "/images/gd-campaign/97041472-e34a-4a02-b9e0-350a1655bc1b.webp",
+];
+---
+
+<Base title={`${era.data.title} — Meghan Fabulous`} description={era.data.summary}>
+  <header class="page-head wrap">
+    <p class="label">{era.data.years}</p>
+    <h1>{era.data.title}</h1>
+  </header>
+  {
+    era.data.lead && (
+      <img class="lead" src={era.data.lead} alt={era.data.leadAlt || ""} width="1600" height="2000" />
+    )
+  }
+  <div class="wrap era-layout">
+    <div class="prose">
+      <Content />
+      {
+        era.id === "grateful-dead-fabulous" && (
+          <section class="paris-feature">
+            <p class="label">The dress · December 2004</p>
+            <h2>Paris Hilton wore it once.</h2>
+            <p>
+              In her mid-twenties Meghan lost the right to her own name and spent a summer beading a thrifted Grateful
+              Dead T-shirt into a dress. Paris Hilton wore that dress to {dress.event}.
+            </p>
+            <SeeThePhoto />
+            <p>
+              <a href={`/journal/${dress.journalSlug}`}>Read the story in her words →</a>
+            </p>
+          </section>
+        )
+      }
+    </div>
+    <dl class="facts">
+      {
+        era.data.facts.map((fact) => (
+          <div>
+            <dt>{fact.label}</dt>
+            <dd>
+              {fact.text}
+              {fact.url ? (
+                <a class="source" href={fact.url}>
+                  {fact.source}
+                </a>
+              ) : (
+                <span class="source">{fact.source}</span>
+              )}
+            </dd>
+          </div>
+        ))
+      }
+    </dl>
+  </div>
+
+  {
+    era.id === "grateful-dead-fabulous" && (
+      <section class="section wrap">
+        <p class="label">Campaign · 2024</p>
+        <h2>Grateful Dead Fabulous</h2>
+        <div class="grid-3">
+          {campaign.map((src) => (
+            <img src={src} alt="Grateful Dead Fabulous campaign photograph, 2024." width="1200" height="1500" />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    era.id === "reinvention" && (
+      <section class="section wrap">
+        <p class="label">From the studio archive</p>
+        <div class="grid-3">
+          <img src="/images/brand/Breezy-Photo.webp" alt="A photograph from the Meghan Fabulous studio archive." />
+          <img src="/images/brand/Camilla-Dress.webp" alt="A photograph from the Meghan Fabulous studio archive." />
+          <img src="/images/brand/IMG_1065-2-small.webp" alt="A photograph from the Meghan Fabulous studio archive." />
+        </div>
+      </section>
+    )
+  }
+
+  {
+    books.length > 0 && (
+      <section class="section wrap">
+        <p class="label">From the lookbooks</p>
+        <h2>Undated</h2>
+        <div class="look-row">
+          {books.map((book) => (
+            <a href={`/lookbooks/${book.slug}`}>
+              <img src={book.cover} alt={`Cover frame from the ${book.name} lookbook.`} width="900" height="1200" />
+              <p class="tile-caption">{book.name}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    clips.length > 0 && (
+      <section class="section wrap">
+        <p class="label">From the press</p>
+        <div class="press-list">
+          {clips.map((clip) => (
+            <article class="press-row">
+              <span class="label">{clip.dateLabel}</span>
+              <a class="headline" href={`/press#${clip.id}`}>
+                {clip.outlet} — {clip.headline}
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    next && (
+      <div class="wrap">
+        <a class="next-era" href={`/eras/${next.id}`}>
+          <span>Next era</span>
+          <span>
+            {next.data.years} · {next.data.title} →
+          </span>
+        </a>
+      </div>
+    )
+  }
+</Base>
