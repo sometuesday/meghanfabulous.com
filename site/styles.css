@@ -64,7 +64,7 @@
   --sans: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, monospace;
   --pad: clamp(1rem, 3vw, 2rem);
-  --header: 4.25rem;
+  --header: 4.75rem;
   --wrap: 1120px;
 }
 
@@ -182,20 +182,25 @@ h2,
 }
 
 .wordmark img {
-  height: 42px;
+  height: 50px;
   width: auto;
   background: transparent;
 }
 
-.hero { background: var(--ink); }
+.launch-copy {
+  width: min(var(--wrap), calc(100% - var(--pad) * 2));
+  margin-inline: auto;
+}
+
+.hero {
+  margin: 0;
+  background: var(--ivory);
+}
 
 .hero img {
   width: 100%;
-  height: 56vh;
-  min-height: 380px;
-  max-height: 880px;
-  object-fit: cover;
-  object-position: center 18%;
+  height: auto;
+  background: var(--ivory);
 }
 
 .statement { padding: 1.6rem 0 0; }
@@ -359,16 +364,50 @@ button:disabled { opacity: 0.55; cursor: progress; }
 }
 
 @media (min-width: 760px) {
-  .wordmark img { height: 48px; }
-  /* Wide frames used to crop the top of the portrait. Pin the photo to
-     the top so the head stays in frame; mobile keeps the 18% crop. */
-  .hero img {
-    height: min(72vh, 760px);
-    min-height: 520px;
-    object-position: center top;
-  }
+  :root { --header: 5.15rem; }
+  .wordmark img { height: 58px; }
   .statement { padding-top: clamp(2.4rem, 6vw, 4.25rem); }
   .notify { padding: 2rem 0 2.5rem; }
+}
+
+/* Desktop: full portrait on the left, announcement and sign-up on the right.
+   The image keeps its own ratio, so the face and gown are not cropped. */
+@media (min-width: 960px) {
+  .launch {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    min-height: calc(100svh - var(--header));
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    padding: 1.15rem 0 1.15rem var(--pad);
+  }
+
+  .hero img {
+    width: auto;
+    height: auto;
+    max-width: min(48vw, 640px);
+    max-height: calc(100svh - var(--header) - 2.75rem);
+    object-fit: contain;
+    object-position: center top;
+  }
+
+  .launch-copy {
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+    padding: 1.5rem var(--pad) 2rem clamp(1.5rem, 3vw, 2.75rem);
+  }
+
+  .launch .statement { padding-top: 0; }
+
+  .launch .notify { padding-bottom: 0; }
 }
 
 @media (min-width: 900px) {

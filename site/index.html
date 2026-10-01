@@ -22,7 +22,7 @@
     <meta property="og:image:height" content="630" />
     <meta
       property="og:image:alt"
-      content="A model in a turquoise, pink, and yellow printed kimono, from the Lady Jamaica lookbook."
+      content="A woman in a floor-length magenta floral halter gown, before carved green wooden doors."
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Coming soon — Meghan Fabulous" />
@@ -31,7 +31,7 @@
       content="A new Meghan Fabulous website is coming soon. Twenty-five years in the making."
     />
     <meta name="twitter:image" content="https://www.meghanfabulous.com/images/og.jpg" />
-    <meta name="twitter:image:alt" content="A model in a printed kimono, from the Lady Jamaica lookbook." />
+    <meta name="twitter:image:alt" content="A woman in a floor-length magenta floral halter gown, before carved green wooden doors." />
     <meta name="theme-color" content="#fbf8f2" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -52,75 +52,78 @@
     <a class="skip" href="#content">Skip to content</a>
     <header class="site-header">
       <a class="wordmark" href="/" aria-label="Meghan Fabulous, home">
-        <img src="/images/logo.webp" alt="" width="612" height="188" />
+        <img src="/images/logo.webp" alt="Meghan Fabulous" width="626" height="174" />
       </a>
     </header>
     <main id="content">
-      <section class="hero" aria-label="Lady Jamaica lookbook">
-        <img
-          src="/images/lady-jamaica-1100.webp"
-          srcset="/images/lady-jamaica-750.webp 750w, /images/lady-jamaica-1100.webp 1100w, /images/lady-jamaica-1498.webp 1498w"
-          sizes="100vw"
-          alt="A model wears a floor-length kimono printed with turquoise, pink, and yellow florals, standing among tropical leaves. From the Lady Jamaica lookbook."
-          width="1498"
-          height="2000"
-          fetchpriority="high"
-          decoding="async"
-        />
-      </section>
+      <div class="launch">
+        <figure class="hero">
+          <img
+            src="/images/hero-1212.webp"
+            srcset="/images/hero-750.webp 750w, /images/hero-1212.webp 1212w"
+            sizes="(min-width: 960px) min(48vw, 640px), 100vw"
+            alt="A woman wears a floor-length magenta floral halter gown, standing before carved green wooden doors."
+            width="1212"
+            height="1699"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </figure>
+        <div class="launch-copy">
+          <section class="statement">
+            <p class="kicker">Coming soon</p>
+            <hr class="rule" />
+            <h1>Twenty&#8209;five years in the making.</h1>
+            <p class="lede">
+              A new website is on the way. It tells the whole story of Meghan Fabulous — the clothes, the years, and the
+              work she is creating now.
+            </p>
+          </section>
 
-      <section class="statement wrap">
-        <p class="kicker">Coming soon</p>
-        <hr class="rule" />
-        <h1>Twenty&#8209;five years in the making.</h1>
-        <p class="lede">
-          A new website is on the way. It tells the whole story of Meghan Fabulous — the clothes, the years, and the
-          work she is creating now.
-        </p>
-      </section>
-
-      <section class="notify wrap" id="notify" aria-labelledby="notify-heading">
-        <h2 id="notify-heading">Sign up to be the first to know</h2>
-        <p class="intro">Leave your email. We will write when the new site launches.</p>
-        <form
-          name="launch-notify"
-          method="POST"
-          action="/thank-you"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
-        >
-          <input type="hidden" name="form-name" value="launch-notify" />
-          <p class="hp" aria-hidden="true">
-            <label>Don’t fill this out if you’re human <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
-          </p>
-          <div class="fields">
-            <div class="field">
-              <label for="first-name">First name <span class="optional">(optional)</span></label>
-              <input id="first-name" name="first-name" type="text" autocomplete="given-name" maxlength="80" />
+          <section class="notify" id="notify" aria-labelledby="notify-heading">
+            <h2 id="notify-heading">Sign up to be the first to know</h2>
+            <p class="intro">Leave your email. We will write when the new site launches.</p>
+            <form
+              name="launch-notify"
+              method="POST"
+              action="/thank-you"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
+            >
+              <input type="hidden" name="form-name" value="launch-notify" />
+              <p class="hp" aria-hidden="true">
+                <label>Don’t fill this out if you’re human <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+              </p>
+              <div class="fields">
+                <div class="field">
+                  <label for="first-name">First name <span class="optional">(optional)</span></label>
+                  <input id="first-name" name="first-name" type="text" autocomplete="given-name" maxlength="80" />
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    inputmode="email"
+                    maxlength="200"
+                    required
+                    aria-describedby="privacy"
+                  />
+                </div>
+              </div>
+              <button type="submit">Sign up</button>
+              <p class="privacy" id="privacy">One email when the new site launches. No spam.</p>
+              <p id="form-error" class="form-error" role="alert" hidden>Something went wrong. Please try again in a moment.</p>
+            </form>
+            <div id="thanks" class="thanks" hidden>
+              <h2 tabindex="-1">You’re on the list.</h2>
+              <p>We will send one email when the new site launches. Nothing else.</p>
             </div>
-            <div class="field">
-              <label for="email">Email</label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                autocomplete="email"
-                inputmode="email"
-                maxlength="200"
-                required
-                aria-describedby="privacy"
-              />
-            </div>
-          </div>
-          <button type="submit">Sign up</button>
-          <p class="privacy" id="privacy">One email when the new site launches. No spam.</p>
-          <p id="form-error" class="form-error" role="alert" hidden>Something went wrong. Please try again in a moment.</p>
-        </form>
-        <div id="thanks" class="thanks" hidden>
-          <h2 tabindex="-1">You’re on the list.</h2>
-          <p>We will send one email when the new site launches. Nothing else.</p>
+          </section>
         </div>
-      </section>
+      </div>
     </main>
     <footer class="site-footer">
       <a href="https://www.instagram.com/meghan_fabulous/" target="_blank" rel="noopener noreferrer">
