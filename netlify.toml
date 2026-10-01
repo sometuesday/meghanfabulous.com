@@ -1,0 +1,43 @@
+# Coming-soon page for main.
+# Netlify publishes `site/` only. The archive at
+# archive/2026-09-30-original-site/ stays in the repo and is not deployed.
+
+[build]
+  publish = "site"
+  command = "test ! -e site/archive && echo Static coming-soon site"
+
+# The launch form posts to /thank-you, where site/thank-you/index.html
+# is a real file. This rule is listed before the catch-all so that path
+# is claimed first. It is not forced: the file itself is served, which
+# is what Netlify Forms needs in order to accept the POST.
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you/index.html"
+  status = 200
+  force = false
+
+# Designed 404. Unknown pages from the previous site use the temporary
+# redirect below instead of this file. Netlify also uses site/404.html
+# automatically when a request fails and no redirect applies.
+[[redirects]]
+  from = "/404"
+  to = "/404.html"
+  status = 404
+
+# Temporary. The full site will add real pages later, so this must not
+# be a permanent redirect.
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 302
+  force = false
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
