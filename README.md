@@ -4,7 +4,7 @@ A temporary coming-soon page. Netlify publishes the `site/` directory. The full 
 
 ## What is published
 
-`site/` is a static page: the announcement, three lookbook photographs, and a Netlify Form named `launch-notify`. Old URLs redirect to this page with a temporary 302. `/thank-you` is the form’s success page and is excluded from that catch-all. `site/404.html` is the 404 fallback.
+`site/` is a static page: one lookbook photograph, a short announcement, and a Netlify Form named `launch-notify`. Old URLs redirect to this page with a temporary 302. `/thank-you` is the form’s success page and is excluded from that catch-all. `site/404.html` is the 404 fallback.
 
 ## Archive
 

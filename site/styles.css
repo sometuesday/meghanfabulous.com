@@ -198,17 +198,6 @@ h2,
   object-position: center 18%;
 }
 
-.hero-caption {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: baseline;
-  padding: 0.9rem var(--pad) 0;
-  background: var(--ivory);
-}
-
-.hero-caption p { margin: 0; }
-
 .statement { padding: 1.6rem 0 0; }
 
 .rule {
@@ -232,115 +221,36 @@ h2,
   font-size: 1.15rem;
 }
 
-.story { padding: clamp(2rem, 5vw, 3.25rem) 0 clamp(2.4rem, 6vw, 4rem); }
-
-.story-grid p { margin: 0 0 1rem; max-width: 38rem; }
-
-.display {
-  margin: 0.6rem 0 0;
-  max-width: 18em;
-  font-size: clamp(1.7rem, 3.2vw, 2.65rem);
-  font-weight: 520;
-  line-height: 1.08;
-  text-wrap: pretty;
-}
-
-.display em,
-.story em {
-  font-family: var(--serif);
-  font-style: italic;
-  font-weight: 520;
-}
-
-.spread {
-  display: grid;
-  gap: 0.4rem;
-}
-
-.spread figure { margin: 0; }
-
-.spread img {
-  width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
-}
-
-.spread figure:first-child img { object-position: center 12%; }
-
-.spread figure:last-child img { object-position: center 30%; }
-
-.spread figcaption,
-.tile-caption {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 0.55rem var(--pad) 0.2rem;
-}
-
-.coming { padding: clamp(3rem, 8vw, 6rem) 0 0; }
-
-.coming h2,
-.notify h2,
 .thanks h2,
 .page h1 {
   font-size: clamp(2.2rem, 5vw, 4rem);
   margin: 0.35rem 0 1rem;
 }
 
-.coming > p { max-width: 38rem; margin: 0 0 2rem; font-size: 1.15rem; }
-
-.chapters-label { margin: 0 0 0.8rem; }
-
-.chapters {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  border-top: 1px solid var(--line);
-}
-
-.chapters li {
-  display: flex;
-  justify-content: space-between;
-  gap: 0.75rem;
-  align-items: baseline;
-  padding: 0.85rem 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.chapters strong {
-  font-family: var(--serif);
-  font-size: clamp(1.45rem, 2.4vw, 2rem);
-  font-weight: 520;
-  letter-spacing: -0.03em;
-  line-height: 1.05;
-  min-width: 0;
-}
-
-.chapters .years {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  color: var(--muted);
-  flex: none;
-}
-
 .notify {
-  padding: clamp(3rem, 8vw, 6rem) 0;
+  padding: 1.75rem 0 2.25rem;
   scroll-margin-top: calc(var(--header) + 1rem);
 }
 
-.notify .intro { max-width: 34rem; margin: 0 0 1.4rem; }
+.notify h2 {
+  font-size: clamp(1.45rem, 2.4vw, 1.85rem);
+  margin: 0 0 0.7rem;
+}
+
+.notify .intro {
+  max-width: 34rem;
+  margin: 0 0 0.9rem;
+  font-size: 1.05rem;
+}
 
 form {
   display: grid;
-  gap: 0.9rem;
-  max-width: 44rem;
+  gap: 0.7rem;
+  max-width: 40rem;
   position: relative;
 }
 
-.fields { display: grid; gap: 0.9rem; }
+.fields { display: grid; gap: 0.7rem; }
 
 .field { display: grid; gap: 0.35rem; }
 
@@ -458,15 +368,7 @@ button:disabled { opacity: 0.55; cursor: progress; }
     object-position: center top;
   }
   .statement { padding-top: clamp(2.4rem, 6vw, 4.25rem); }
-  .spread { grid-template-columns: 1.05fr 0.95fr; }
-  .chapters { grid-template-columns: 1fr 1fr; }
-  .chapters li {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 0.35rem;
-    padding: 0.95rem 1.25rem 1.1rem 0;
-  }
+  .notify { padding: 2rem 0 2.5rem; }
 }
 
 @media (min-width: 900px) {
@@ -475,10 +377,6 @@ button:disabled { opacity: 0.55; cursor: progress; }
     align-items: end;
   }
   button { width: fit-content; }
-}
-
-@media (min-width: 1100px) {
-  .chapters { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media (prefers-reduced-motion: reduce) {
