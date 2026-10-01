@@ -1,0 +1,11 @@
+Fraunces
+Copyright 2018 The Fraunces Project Authors (https://github.com/undercasetype/Fraunces)
+
+Inter
+Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+
+IBM Plex Mono
+Copyright 2017 IBM Corp. (https://github.com/IBM/plex)
+
+These fonts are licensed under the SIL Open Font License, Version 1.1.
+https://openfontlicense.org
