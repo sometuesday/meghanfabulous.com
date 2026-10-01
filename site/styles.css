@@ -135,6 +135,10 @@ label,
   color: var(--muted);
 }
 
+.kicker {
+  font-size: calc(0.72rem * 1.5);
+}
+
 h2.kicker {
   margin: 0 0 1.1rem;
   line-height: 1.4;
@@ -220,10 +224,22 @@ h2,
   max-width: 7.2em;
 }
 
-.lede {
+.lede,
+.sail,
+.journey {
   max-width: 36rem;
   margin: 0;
   font-size: 1.15rem;
+}
+
+.sail { margin-top: 1rem; }
+
+.journey { margin-top: 0.85rem; }
+
+.journey a {
+  color: var(--ink);
+  text-decoration-color: var(--accent);
+  text-underline-offset: 0.2em;
 }
 
 .thanks h2,
